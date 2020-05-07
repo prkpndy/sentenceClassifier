@@ -115,7 +115,9 @@ data_test['post_description'] = data_test['post_description'].apply(stemming)
 txt_clf = Pipeline([
     ('vect', CountVectorizer()),
     ('tfidf', TfidfTransformer()),
-    ('clf', OneVsRestClassifier(LogisticRegression(solver='sag'), n_jobs=-1))
+    ('clf', SGDClassifier(loss='modified_huber', penalty='l2',    # loss='hinge'
+                    alpha=1e-3, random_state=42,
+                    max_iter=5, tol=None))
 ])
 
 train_text = data_train['post']
@@ -133,6 +135,4 @@ prediction_eval = txt_clf.predict(eval_text)
 prediction_test = txt_clf.predict(test_text)
 print('Evaluation accuracy is {}'.format(accuracy_score(y_eval, prediction_eval)))
 
-#SGDClassifier(loss='modified_huber', penalty='l2',    # loss='hinge'
-#                    alpha=1e-3, random_state=42,
-#                    max_iter=5, tol=None)
+#OneVsRestClassifier(LogisticRegression(solver='sag'), n_jobs=-1)
