@@ -1,0 +1,1356 @@
+post,label
+@daffl I just found a way of how to do it!,1
+steve uploaded a file: Untitled,1
+so how do i get the actual value?,1
+how do I use $unset when updateing an object (using mongoose)?,1
+"You could probably arrange to do the same thing through Mongoose models, but it’s not how I would do it.",1
+"how-do-i-create-custom-methods"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-create-custom-methods",1
+How do I set the config var mongoClient in production?,1
+"Also, how do I set a unique constraint with MongoDB?",1
+In my case I do have authentication for website and mobile user both so how to manage ? Both the authentication are different..,1
+"hi guys, how do I access headers of a request from a service?",1
+"There also is how-do-i-set-up-https"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-set-up-https 😉",1
+How do I get the user object client side? I tried the answer here https://github.com/feathersjs/feathers-authentication/issues/131 but didn't seem to work.,1
+Because now it doesn't.. and I can't seem to figure out how to do just that,1
+"@jarnojellesma - Right, but how do I now limit the module.exports version to a single service method?",1
+"ok, now, how do I test in the front-end if they are logged in?",1
+"This might sound dumb, but how do I send params with a service.get..?",1
+"how-do-i-access-the-request-object-in-hooks-or-services"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-access-the-request-object-in-hooks-or-services",1
+"this might help how-do-i-create-channels-or-rooms"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-create-channels-or-rooms",1
+how do I populate the whole object that is returned from the service instead of assigning it to a field,1
+"hi all, i couldn't understand how to do one2many relations",1
+How do I pass a JWT to feathers.authenticate()?,1
+"how-do-i-access-the-request-object-in-hooks-or-services"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-access-the-request-object-in-hooks-or-services",1
+"how-do-i-do-associations"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-do-associations",1
+How do I dispose of a feathers client after I am done using it ?,1
+How do I install plugins in Feathers?,1
+❓ 🙋 How do I disable pagination from client side if the $limit is just 1?,1
+"And how do I specify include: [{ model: SomeModel, where: { foo: """"bar"""" }}] in the hook.params.query object?",1
+"^ How can I do that with Object.assign(hook.params.query, { something: """"else"""" });?",1
+ok. I am dying here. How do I call authenticated services from within the before hook of an authenticated service.,1
+"@harmony For example, how do I return “/index.html” at “/timeline” and “/account”? We are developing Single Page Application.",1
+"@smixx what do you mean, this is a before hook. how am i suppose to set it to the result?",1
+I don't know how the bindings to sequelize looks .. but with mongo/mongoose you have to do $where:{createdAt: '2017-08-13'},1
+@luc.claustres so... i need to use emits to test the socketio services? How do I use the feathers client to test it?,1
+And how do I scale feathers on socket limit max? How do I know?,1
+"https://docs.feathersjs.com/guides/advanced/scaling.html#cluster-configuration
+And how do I scale feathers on socket limit max? How do I know?",1
+"@jacobez sorry! I didn't quite get it. How the filter work internally, btw? What about channels and how to do?",1
+How do I add data to the jwt payload?,1
+is there a general rule on how to start a topic here or do i just throw my thought and questions out there?,1
+❓ 🙋 How do I write an aggregate using mongoose feathers adapter?,1
+❓ 🙋 How do I send paramsFromClient using rest command line client?,1
+"Don't know if this helps but you can directly serve HTTPS how-do-i-set-up-https"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-set-up-https or I often use https://github.com/chimurai/http-proxy-middleware for redirect",1
+❓ 🙋 How do I send paramsFromClient using rest command line client?,1
+❓ 🙋 How do I document socket endpoints?,1
+"@sieabah I know, but unsure how to do this in a for loop of code",1
+❓ 🙋 How do I create pagination for my custom service similar to the db adapters?,1
+❓ 🙋 how do I restrict emit of an event to the socket who started the request?,1
+how do I prevent the event from being fired? It's a service from db adapter,1
+How do I know that the connection.id is not the user who is responsible for creating the event in the first place?,1
+"Hmm, how do I emit events from a service to the corresponding socketio websocket?",1
+"How do I """"log in"""" the user I create, to make sure he can only update/delete/view himself, and not other users?",1
+"How do I get the currently logged in user, or just simply check if it's logged in or not?",1
+how do i write to postgres? any concrete examples?,1
+How can I do a redirect and add a new JWT at the same time from a service?,1
+"How do I sent the authentcation token while making a find request from client? For some reason, authentication service isn't storing in localstorage",1
+❓ 🙋 How do I get self user information using the authentication token only? Is their any automatic endpoints/services?,1
+How do I inject a query? Is there any hook? And what is the use of stashBefore hook and when to use it?,1
+"@teddy-error commented on @rjp’s file Service route to another Service: app.service, I would think",1
+@teddy-error commented on @rjp’s file Service route to another Service: There is an app instance on one of the hook properties too,1
+@rjp commented on @rjp’s file Service route to another Service: so end result should a POST with params to /ticker,1
+"https://feathersjs.slack.com/archives/C0HJE6A65/p1507811021000040
+❓ 🙋 How do I get self user information using the authentication token only? Is their any automatic endpoints/services?",1
+"❓ 🙋 How do I use fuzzy search using mongoose? https://www.npmjs.com/package/feathers-mongodb-fuzzy-search
+hook which adds fuzzy search for mongodb through $search in find query",1
+how do I decode them from client side?,1
+@daffl how do I have to write the exemple in a hook ?,1
+hello. quick newbie question … how can I create a service instance programatically? can I do something like a: myservice.create( {properties}); ?,1
+"and seems to work, I was wondering how to trigger the client update when my other js files do the work",1
+"hello guys, how do I setup a /auth/google url using nuxt.js?",1
+❓ 🙋 How do I use aggregation with feathersjs?,1
+❓ 🙋 How do I stop showing the server error stack to client on any error in prod?,1
+Hi...How do I disable services for provider...thx,1
+and how do I pass it ?,1
+"lets say that io use this.socket.emit('messages::find' how do i make it to get the last 20 objects, in other words the page 1",1
+"how-do-i-access-the-request-object-in-hooks-or-services"""" target=""""_bank"""">https://docs.feathersjs.com/faq/readme.html#how-do-i-access-the-request-object-in-hooks-or-services",1
+How do I check if paging is active in the backend?,1
+"hi, how would i do that? from command line?",1
+another question how to use https://github.com/feathersjs/authentication-client#hooks populateHeader hook and do I need to do it?,1
+How do I send a date in a Feathers request?,1
+how do i set permission to a service using feathers-permissions. have it all configured except the actual rule,1
+"and i guess a better question is, how do i populate the user with feathers-hooks-common populate?",1
+"Also, how do I customize my rethinkdb queries? Not much info here https://docs.feathersjs.com/v/auk/databases/rethinkdb.html",1
+"Hi, I have a limit of 5 items in my service. How do I remove that limit?",1
+nevotheless uploaded a file: Bildschirmfoto 2017-01-31 um 14.53.12.png and commented: How do i avoid those trying unknown thingies?,1
+so how do i use feathers-authentication 1.0 ? 😕,1
+"i think i already asked once, but how do i get the client ip in a service method?",1
+"Using feathers-authentication local, how do I seed a default user (server-side), like: 'email': 'admin@feathersjs.com', 'password': 'admin'",1
+"how about that query? how do I go about doing something like
+Sequelize.query(”select…
+?",1
+"I feel like this may be a silly question, but using feathers-client how do I pass query params to the find method?",1
+"noob question inc. How do I install feathers auk? Doesn't look like there's a public release available, but surely it's somewhere?",1
+"Hey guys, how do I ignore a service event on the client that originated it?",1
+Hmm. How do I connect do the websocket?,1
+how do i get the next page of the paginated data from the services,1
+"Btw, how do I get involved in feathers development?",1
+Thanks @luke. How do I go about turning on debugging?,1
+how do i allow cors? (Access-Control-Allow-Origin),1
+how do I send an error to client ?,1
+How do I specify my query from the client when using the find method?,1
+"Another thing .. how do I implement the functionality from the old hooks (restrictToRole, restrictToOwner verifyOrRestrict, etc)?",1
+"Hi all, how do I delete an already populated property from a database object/document?",1
+"how-do-i-create-custom-methods"""" target=""""_bank"""">https://docs.feathersjs.com/v/auk-reorg/faq/readme.html#how-do-i-create-custom-methods",1
+"Guys, how do I setup my """"audience""""?? I'm getting back """"jwt audience invalid. expected: https://yourdomain.com"""" when request my /users/ endpoint using a diferent domain.",1
+"might be a silly question, but how do I set the redirect URL?",1
+@btheo how do I specifiy the property I want to use to PATCH the object?,1
+"hey all, I'm struggling a bit with the current mix of auk/legacy documentation... how do I go about implementing the populate hook from feathers-hooks-common?",1
+how do I attach the id of the currently logged in user to an object that gets created?,1
+"If I want to use only token authentication (not local), how do I generate a valid token?",1
+How do I get it?,1
+"Mkay, npm install -g feathers-cli is pulling 1.2.7, how do I get 2 pre?",1
+how do i get the data source into the feather generate service database options,1
+The first one is currently how it will return without the populate. What i'd like is to achieve the second one with the populate.,1
+I'm a little confused exactly how feathers populate() works based off of the docs.,1
+Our concern is what populate is doing regardless of how execution got there. So the debug()s will isolate what we are interested in.,1
+Hi everyone! Can you explain how the populate hook works? I do:,1
+"Hey guys, how can I also populate the patched event ?",1
+The Chat guide shows you how to populate relationships.,1
+"@dottodot How would you populate a Mongoose ORM using raw Mongoose, without Feathers?",1
+is there any good and simple example on how to use populate with feathers?,1
+Hi all please I need help with pagination of populated service. Like how do you paginate populate services? Thank you.,1
+"ok, how would you Recommend doing an nested populate?",1
+how do I populate the whole object that is returned from the service instead of assigning it to a field,1
+❓ 🙋 How to populate in params instead of in data?,1
+"I know how to loop through an array, but in the populate hook, you pass an config object",1
+@daffl Any idea about how to integret populate with mongoose ?,1
+"You can try using a manual mongo query if you want. That's not how populate works though. Still, you're welcome",1
+still got to figure out how to handle local auth.. though that's probably pretty simple. A couple redirects might just do the trick,1
+@daffl I probably will. I still need to figure out the ObjectId cast problem. Maybe that's simpler,1
+"Dows anyone use feathers-hooks-common v3? I would like to use """"client"""" hook, but i cant figure out how i should install the 3rd version",1
+Did you figure out which part of that line is breaking it?,1
+It looks like Webpack can’t figure out which one to use,1
+"at this point I can figure it out, just easier to ask cuz why not",1
+Something is wrong somewhere and I can't figure it out.,1
+"@davi-teodoro If you figure it out, pretty please add a QA question to the docs for that.",1
+"It's like now I know this person is authenticated, but I can't figure out what they are.",1
+"You helped me out greatly to figure out what was wrong, thank you very much 😊",1
+Hey thanks guys :). I'm starting to figure it out. Seems old fashioned reading through some code is helping me grok it.,1
+I'm trying to figure out how to deal with this for the swift sdk but I've been hitting a wall,1
+For socket.io you’d have to figure out how to determine if the socket client is authenticated.,1
+"Hey, I may be missing something obvious here, but I can't figure out what sample app the auth recipe is referring to: https://docs.feathersjs.com/guides/auth/recipe.oauth-basic.html",1
+I'm really trying to figure out how to simulate it in mocha tests,1
+I'll look through that auth doc you linked and see if I can figure out how to fake the JWT for github,1
+thanks @eddyystop - I'll check out the populate hook. Just trying to figure out a way to implement GET /teams and GET /teams/1/members,1
+But I am unable to figure it out,1
+I have literally been trying to figure this out for a hour xD,1
+I can't figure out why the client side auth isn't authenticating as the admin user the second time,1
+"I have been able to Isolate the issue, now I just need to figure out what line and why its causing that error.",1
+"But it changes based on the app’s requirements, so you have to figure out the best way to make it happen.",1
+"I can see it in the console, but I can't figure out how to push it through.",1
+ok - can you figure out the rest for me (keep adding in pieces of the query until it breaks),1
+"It's already there, I just can't figure out how to reference the property",1
+Because now it doesn't.. and I can't seem to figure out how to do just that,1
+I spent a little while yesterday trying to get auto-letsencrypt working but I couldn't figure it out.,1
+"Do that in a hook
+i guess i'll figure it out... i just wanted to replace the parentObject with the populated childObject.",1
+Can't figure out why.,1
+And figure out how to get the feature you need in there.,1
+I can't figure it out at the moment.,1
+I’ve spent the last two days off and on trying to figure out how to do this but idk.,1
+Ilya and I will try to figure it out tonight,1
+"thank you, suppose I'll have to figure out how to handle this using promises",1
+"Hey, so I'm fairly new to feathers, trying to figure out how to set up a """"nested route"""", like app/teams/{teamId}/members/",1
+yeah i've been digging through it for like 2 days now I can't seem to figure it out,1
+@luc.claustres I'm unable to figure out how to unit test a service by mocking the db,1
+"Looking at library tests, I'm unable to figure out things. It would be nice to checkout some realworld apps. _...sigh_",1
+i've been trying to figure it out but I don't think it's possible,1
+"@freeline Could you show more code, because I can't figure it out by only that.",1
+Many thanks. I did still not figure out why events do not fire after running the hooks...,1
+I am trying to make a query where $in and a field equals a value,1
+"I'm not """"explicitly"""" trying to get the deleted records. It's the populate hook 🙂",1
+oh yeah… I was trying to debug that,1
+"Does anyone here have experience using oauth2, feathers, and nginx reverse-proxy? I'm trying to understand why I get a mismatch_uri while using nginx.",1
+Try it with DEBUG and then print your user object just before trying to access _id,1
+kickstarter uploaded a file: Untitled,1
+so I’m kind of trying to avoid the ‘bloated utils folder’ code disease 😄,1
+this is with the stock hooks on the user service trying to remove the password from the json response.,1
+@marshall Been trying to find a solution but with no luck.,1
+I am trying to keep an inventory count,1
+"I was trying to extend via es6 classes a mongodb service, but didn’t work",1
+"hey guys, why would my authenticate service return 401 Unauthorized (No auth token) when trying to login? http://localhost:5000/authentication via POST, Content-Type: application/x-www-form-urlencoded",1
+what I understood is that feathers is trying to connect to couch at this address: ECONNREFUSED 127.0.0.1:5984,1
+Are you logging what CouchDB is actually trying to connect to?,1
+I have never used CouchDB but my guess is that the connection string hasn’t been passed properly and it’s trying to use its default.,1
+Are you trying to include your non-query props inside the query for feathers-reactive?,1
+"i have been trying to get this to work: https://docs.feathersjs.com/guides/advanced/file-uploading.html however, i am receiving a 404 error when posting to localhost:3030/uploads",1
+@genyded I am not trying to populate data from a relationship. I am aiming to re-use one service for two different endpoints.,1
+netcitrus: You have to create a custom Verifier for feathers-authentication-local to do what you’re trying to do.,1
+"What I'm trying to achieve is when the user create something, store their id alongside with the data they create in a nedb",1
+"@instanceofmichael you're trying to keep API endpoints available, right?",1
+"ops, I already added a comment trying-to-make-sure-that-a-json-request-that-404-s-still-returns-json-but-nuxt-is-still-eb3a6d752946"""" target=""""_bank"""">https://medium.com/@SpaceGazebo/im-trying-to-make-sure-that-a-json-request-that-404-s-still-returns-json-but-nuxt-is-still-eb3a6d752946",1
+@marshall hi there .. I have the basics.. I am just trying to traverse the code,1
+it's like i am reading a line and trying to guess that it does,1
+So what is the problem exactly? You are trying to use a custom id property on a mongoose adapter?,1
+"You are not trying to get that middleware running with a WebSocket call, right?",1
+"well, you define foo after trying to log it?",1
+I'm still trying to get authentication working using feathers-vuex,1
+I'm stuck trying to access the JWT from the server side,1
+I'm trying to do it 'manually' with a Nuxt plugin,1
+That's a good lesson learned for me. Not trying to make one single application that can do everything 😛,1
+"Don't feel bad, I'm getting slapped around right now with trying to implement passport-steam into my app",1
+I'm just trying to utilize the already available socket.io identifying ID which is in a string format,1
+as of now I am trying to see if I can remove the not-found-handler() & handler() at runtime & then re-register it,1
+I’m trying to debug a library and it would be great to have this information,1
+@rondaniel what are you trying to do?,1
+@eddyystop sorry you've lost me. I'm trying to use the feathers api,1
+"@smixx I'm still stuck on trying to authenticate, mind if I share some code?",1
+I'm trying to figure out how to deal with this for the swift sdk but I've been hitting a wall,1
+"in the case where the user was trying to access a restricted page or ressource, yes",1
+Hey. I'm trying to dockerize the feathers and came across this https://github.com/feathersjs/feathers-docs/issues/63,1
+I’m trying to see if I can find an example of someone using it in feathers,1
+"I’m trying to use it for user registration - https://www.npmjs.com/package/bcrypt-nodejs
+A native JS bcrypt library for NodeJS.",1
+What are you trying to accomplish?,1
+i guess i was trying to restrict what the client can do,1
+"im just trying to learn but yes, it would be a single page application",1
+"As @smixx just pointed out, feathers-mongoose already supports what you’re trying to do.",1
+"I am trying to learn as best as possible, trying to build a good understanding.. spending lots of hours reading.",1
+"I'm trying to do the """"Test Login with OAuth""""",1
+but I saw the same example in the documentation (I spent a lot of time trying to find it again but just gave up),1
+what are you trying to do @bichenkk,1
+"essentially, i’m trying to ensure that any and every error on the server is logged. i’m finding that certain errors are slipping through.",1
+"okay, I'm trying to populate on a before hook of find",1
+I'm really trying to figure out how to simulate it in mocha tests,1
+@btheo what are you trying to do?,1
+Does anyone have experience or knowledge on trying to set up Sequelize database transactions with the feathers framework?,1
+"@merik, I’ve run into this before when trying to serialize an error into a plain JS object.",1
+I’m trying to do this,1
+I am trying to think about what kind of busniess use cases would be complicated and error prone,1
+and honestly I was just trying to start up a conversation about something I don’t know a ton about,1
+@v1p what are you trying to accomplish by passing custom headers?,1
+I am trying to add custom GET parameters to url like ?test=1,1
+@smixx : I was trying to setup context using a custom header in a multi-tentant setup,1
+I assume this is how you are trying to do it ?,1
+"If you can share the file, it'll be easier to understand what exactly you are trying to do",1
+"Can you share a bit of context, that where exactly you are trying to access it ?",1
+thanks @eddyystop - I'll check out the populate hook. Just trying to figure out a way to implement GET /teams and GET /teams/1/members,1
+Because I am trying to get it to work with custom primary key and it won't work at all.,1
+I only patch inside database and trying to populate the fields,1
+Trying to make a plugin which acts on successfull authentication,1
+@v1p what are you trying to mock? Service data or param data?,1
+"@luc.claustres i am trying to test hooks.disallow('external') but i get >TypeError: hooks.disallow is not a function,",1
+@frederico02 yea did express twice during the course so trying to understand. What featherjs do,1
+Even I am trying to get my head around RxJS,1
+I don’t see a reason why it wouldn’t. Did you see what it is trying to call .apply on?,1
+I am trying to implement a jwt blacklist using application hooks. Is this the best approach?,1
+I have literally been trying to figure this out for a hour xD,1
+"alt commented on alt’s file if blocks and promises: perfect, thanks guys!",1
+I am trying to switch from django,1
+I'm using postgres with sequelize. I'm trying to use native sequelize eager loading.,1
+anyway not trying to find a work around for this issue. feathers should be able to handle dates with timezone correctly I think,1
+"@zeltarion Are you trying to read a file? If so, you should read https://docs.feathersjs.com/guides/advanced/file-uploading.html",1
+I'm trying to avoid using a Web view in the native apps,1
+looks like you are trying to reinvent something pretty popular: captcha,1
+"Yeah, I am trying to get a common interface throughout Promise.all calls and get and find return different data structures.",1
+danielevz uploaded a file: Untitled,1
+I really don't understand what you are trying to archieve. Please p;ost some code.,1
+I suspect its trying to find the user from authentication and not finding it.,1
+The error messages even says that it's trying to populate *an invalid user*,1
+I’m still trying to find what’s different.,1
+sieabah uploaded a file: Untitled and commented: So with feathers-sync lately I'm having an issue that when trying to authenticate it pretty much dies,1
+"Hi guys, I'm using this code which I pulled from some of the examples, trying to authenticate into my server:",1
+I am trying to send event like ..,1
+@smccamley daffl should look at what you have if the record you are trying to remove does in fact exist.,1
+"That's not the error I'm really trying to fix, I know that has to do with a different layer",1
+What are you trying to do though?,1
+I'm trying to setup middleware for the Apollo Client.,1
+I was trying to get this to work but couldn't find the right solution,1
+I'm trying to think of a good way to create a MWE. But I don't think there is.,1
+So the problem I'm trying to solve: How to authenticate the user without using the feathers client?,1
+I spent a little while yesterday trying to get auto-letsencrypt working but I couldn't figure it out.,1
+"So the problem I'm trying to solve: How to authenticate the user without using the feathers client?
+Can you maybe give me an example?",1
+I am getting audience invalid when trying to send a request with the token returned from the clientTokens service..,1
+Yea just trying to see if it's possible,1
+"thank you btw, for the help 🙂 I have only been on feathers for about a week. Trying to replace my services with it.",1
+It sounds like you need to spend a little more time in the manual (not trying to be a jerk),1
+"success works fine, but I am trying to debug why I can't throw an error message",1
+I'd recommend using it as inspiration and trying to write a lot of it yourself @lonewolf,1
+"@pward123 you are probably trying to do service.on(‘patched’,…)",1
+and am trying to do the following ... (which works with my other dependencies),1
+"Yeah, I'm still an old school js person for now... trying to learn the new stuff since some of it seems useful.",1
+Perfect thanks. Search engines were of no help when I was trying to search for 3 dots.,1
+When trying to authenticate,1
+I randomly get Error in connection establishment: net::ERR_NOT_IMPLEMENTED when trying to connect with the feathers-client through websockets from a client.,1
+"that makes sense, i was trying to make it easier to work with",1
+Trying to run an authentication server on the browser... looks like 'feathers-authentication' requires net and dns from node 😕,1
+Are you trying to cluster on one machine?,1
+I’ve spent the last two days off and on trying to figure out how to do this but idk.,1
+has anyone created a custom service without one of the built-in adapters? I'm trying to make one which connects to an amqp server (rabbit-mq)?,1
+I think that if you don't override the response in the hook it might still be trying to load the service,1
+are you trying to sync two instances?,1
+essentially I am trying to sync specific instances.,1
+"which would be fine, except that I am trying to create a consistent API.",1
+"Yes sir, I have the hook, I am trying to get information from there into socket.feathers object for filters later.",1
+yes that's what I'm trying to do...,1
+"I’m trying to set the content-type header, but it’s getting overwritten with application/json; charset=utf-8. My other headers work though",1
+"Sorry! I don't understand. If you're testing services, why are you trying to inject a hook?",1
+"Hey, so I'm fairly new to feathers, trying to figure out how to set up a """"nested route"""", like app/teams/{teamId}/members/",1
+"i use aws, so I'm just trying to brainstorm with you here",1
+Long story short: Trying to do something from a Discord bot client and the connection to feathers times out.,1
+I'm trying to write test for users in a pretty basic generated app,1
+"yeah, I mean I'm just trying to get a feel for it using the default stuff with as few changes as possible",1
+What i'm trying to do is move this script from the meteor ecosystem to feathersjs,1
+what i am trying to do is anytime a new message is created i will give it a timestamp,1
+"Well, I don't have a domain to associate it with, I'm trying to use their sandbox just for testing",1
+Yep that’s what I’m trying to do.,1
+"To be fair, Redis alone would probably accomplish what you're trying to do quite nicely.",1
+"I was trying to use the validateSchemafor that, but I think it only works on the hook.data",1
+"(I was trying to bundle jsonwebtoken before, to use it’s APIs, but webpack was not having that…)",1
+i've been trying to figure it out but I don't think it's possible,1
+I'm trying to wrap my head around how does feathersJS handle CRUD operations,1
+Trying to configure it manually now. I'll let you know how that works for me.,1
+I'd really recommend generating an application first before trying to migrate s pre existing application,1
+"Hi all, I am trying to add Kue to feathers.js and have it initialized",1
+"@matt_c I think I'm not using hooks, I'm just trying to check if the user is logged in or not on the template engine.",1
+you probably trying to tell me that I actually have to keep this data under users service?,1
+What are you trying to do? payload2 will always be a new object and changing the length wouldn’t really do much.,1
+am trying to get the new lenght of payload2 at each time the hooking is called in a loop,1
+hey everyone! trying to sync feathers event across multiple containers and tried using https://github.com/feathersjs-ecosystem/feathers-sync,1
+"no, was trying to show that I have an object with multiple fields, one of which is an array.",1
+"that was my bad, I forgot it in trying to be concise",1
+and record that I’m trying to patch,1
+i am trying to understand hooks to my service,1
+I’m trying to do this from client,1
+I’m just trying to patch element of array in my collection,1
+"well, that’s exactly what I’m trying to do",1
+"What are you trying to achieve, on a higher level?",1
+"That """"req.user"""" line is triggered after the request goes through the auth middleware, so what exactly are you trying to achieve?",1
+"<a href=""""/auth/github"""">Login With GitHub</a> fails because react is trying to map a component to that link",1
+how can i test routes / middlewares?,1
+"Hey guys, I am getting a Not Authenticated Error with the new auth client, how can I debug this on the feathers server side?",1
+How can I modify a database query with sequelize so that it only retrieves select fields from the database?,1
+"hey guys, how can I query a table (or use a service) in a global hook?",1
+@daffl how can I provide a example?,1
+how can I do the include with sequelize inside my userService so I can include the role associated to my user?,1
+how can I get the current user outside of a service? is there anyway to get that info through feathers object directly?,1
+how can I increase JWT expiration time?,1
+how can I update? And what is patch?,1
+How can I use token stored in localStorage and if not then use local auth?,1
+how can I write a script or something to migrate existing data with new schema,1
+"one more question, let say I would like to create Profile in User service, how can I do it in my example above",1
+Hi everyone! How can I change NotAuthenticated error message ?,1
+"my question is, how can i make the event model aware of the invitations?",1
+"Hi team, How can I get current user with given accessToken, is there any built-in endpoint allow me do it?",1
+"Hey guys, how can I only update one field inside database using feathers-client ?",1
+"hi, how can i use this socketio services in another app? Any one can help me out with some advices. Thanks.",1
+how can i include feathers-hooks-common,1
+But how can I attach those identifiers ? Maybe through query string ?,1
+How can I set a temp service listener and then remove it ?,1
+"Hey guys, how can I add additional field using after hook ?",1
+"Hi all, how can I access the sequelize methods of my models after I define them?",1
+"How can I help you, help me?",1
+"Hey guys, how can I also populate the patched event ?",1
+How can I set html5 client side routing ?,1
+how can I update the id field?,1
+"Hey guys, how can I select WHERE IN AND ? { status: 0, $in: [] }",1
+How can I do a find query and find partial matches for string fields?,1
+"ok, got it. So if I need to use a hook to remove the password column, how can I “chain” them?",1
+I recently updated the cli and generated authentication. How can I get a JWT token locally?,1
+how can I find out which database url feathers is using,1
+how can I secure it now?,1
+How can I achieve that?,1
+@dnszero so how can I debug my server side code?,1
+2. how can I debug the code on the server side ?,1
+"@dnszero yes, but how can i understand how it works if I cannot read the code? documentation is not much detailed",1
+But how can I get the results outputted to the client?? Promises are messing with my head 😕,1
+"hi, noob question: how can I get first result of the query, something like App\Flight::where('active', 1)->first();",1
+How can I debug every request received by feathers (v2/auk)? is there any simple way of adding a console.log(req) or equivalent?,1
+how can i reuse an existing service inside another??,1
+or how can I debug the query is being processed in my call? Thnkx! 🙌,1
+how can I group those OR conditions in a AND ( … ) or something to that effect?,1
+"Hi, how can i do an $like search using Sequelizejs?",1
+Hi everyone. how can i optimize the speed of my feathers service,1
+how can I do this,1
+How can I use feathersjs's hooks in client side?,1
+"I mean, how can I understand what kind of functioanllity is available for me?",1
+@harmony you mean adding the category_id into the products? how can I construct a m-m relationship?,1
+"Hey guys, how can I overwrite the ORM errors ?",1
+so how can i access the variables inside the function ?,1
+Hi everyone. can I ask how can I access the app object when I am in the service?,1
+How can I merge client calls ?,1
+"Hi. On the server-side, how can I generate a token based on the username and password?",1
+"Hi. On the server-side, how can I generate a token based on the username and password (hashed)?",1
+Hi everyone. May I ask how can I do database something like ?receive_datetime=null?,1
+"Hey guys, how can I remove fields with discard from auth service ?",1
+"@orimoyegun Deploy just as you would a plain JS app.
+how can i deploy a feathersjs app with mongoose on Microsoft Azure?",1
+how can i deploy a feathersjs app with mongoose on Microsoft Azure?,1
+how can i do a GET call of a web api inside my feathers service,1
+How can I query a belengsToMany association?,1
+How can I pass throught the Feathers adapter?,1
+how can I return a custom object on get('custom') ? instead of 404,1
+"but , now, how can I login (let's say, via Postman) in order to get my JWT Access Token?",1
+"How can i add option """"jwtFromRequest: fromUrlQueryParameter(param_name)"""" in feathers-authentication-jwt?",1
+how can I ensure app() is ready before running my test suite?,1
+How can I disable REST routes for a service?,1
+how can i get the proper error message using feathers,1
+How can I set headers to use CORS in my app? E. g. my frontend can talk with the backend.,1
+"how can i resolve this warning message """"Possible EventEmitter memory leak detected. 65 connection listeners added. Use emitter.setMaxListeners() to increase limit""""",1
+Any idea how can I fix that…,1
+how can i update a document on the server,1
+- - How Can I get the logged user in a custom service? I found the populateUser used in old version only.,1
+How can I send created / patched events only to users that are on the page which refer to that update ?,1
+How can I increment / decrement using sequelize ?,1
+How can I replace the ID field with another field in a create hook?,1
+And later I will see how can I integrate react / react-native,1
+but also how can I make the rest of the app wait for that to be set?,1
+How can i use socket connection in services to listen different event of socket?,1
+But how can I authenticate with the feathers client after obtaining the JWT?,1
+"Guys, how can I work with auth 2 authentication and a js app? Does someone have a sample?",1
+So how can I harness sequelizes query -> where translations?,1
+"^ How can I do that with Object.assign(hook.params.query, { something: """"else"""" });?",1
+"Hey guys ! On my hook, how can I get my mongo (from mongoose) db connection",1
+"Hi, how can I work with senecajs + featherjs + rabbitmq?",1
+Hey guys! How can I generate a token from a custom route using featherjs? Any internal method?,1
+But how can I authenticate with it?,1
+"hi, how can I disable a hook call, when I internally call find function, thanks",1
+I am using mongoose. How can I disable update completely?,1
+"Hi, how can I generate a download instead of return json data for a specific service? ... thanks",1
+"How can I get create() to accept a string? app.use('/html-entities-decode', bodyParser.text(), createService(options)); produces this error: {""""name"""":""""GeneralError"""",""""message"""":""""First parameter for 'create' must be an object"""",""""code"""":500,""""className"""":""""general-error"""",""""data"""":{},""""errors"""":{}}",1
+How can I push an additional object into MAT array,1
+I'm creating seeds for my app using sequelize... how can I hash my passwords in users table?,1
+Hey guys! How can I call a service from another custom service?,1
+how can I solve this?,1
+Hello guys! How can I get the logged user on a custom service?,1
+how can I use my feathersjs to acheive that,1
+really ? How can I use authenticate tho ?,1
+How can I do a redirect and add a new JWT at the same time from a service?,1
+Plz how can I get the list of all login users,1
+pls how can i get current user from hook,1
+How can I make a difference btw find and get… it’s a GET HTTP method ?,1
+hello. quick newbie question … how can I create a service instance programatically? can I do something like a: myservice.create( {properties}); ?,1
+"hello, currently im using feathers-offline-realtime/lib/optimistic-mutator. how can I know if the service that is wrapped by the optimistic-mutator is ready?",1
+How can I modify in an easy way a standar mongodb service so delete is disabled?,1
+"Could anyone help me, how can I work with paging on feathers with angularjs ??",1
+I don't think I have multiple socket connections (how can I tell?),1
+How can i open a new thread?,1
+how can I catch that messages from server?,1
+so how can I convert id to ObjectId on client side?,1
+@alt uploaded a file: How can I find the source of this error?,1
+is it possible to make feathers auto prefix services?,1
+is it possible to change the directories that feathers-generator outputs files to?,1
+"And also , is it possible to use group by? (i am using feathers-sequelize)",1
+is it possible to use REST alongside socket.io?,1
+is it possible to enable polling using the REST client on a per service basis?,1
+is it possible to alter data before querying it in a before hook?,1
+"Hi, is it possible to use this package with feathers: https://github.com/lucasconstantino/graphql-modules",1
+is it possible to pass more info about the request to hooks?,1
+How is it possible that app.get('token') returns undefined after login ?,1
+Is it possible to generate users automatically like with older cli?,1
+Is it possible to disable pagination on a REST call? I tried /users/?paginate=false but I don't get results any more that way..,1
+"Is it possible to pass a custom db query with a service, specifically using rethinkdb?",1
+Is it possible to have two instances of feathers client in one app?,1
+"hey fellas / ladies, is it possible to use a service rest param to show any records greater than 0",1
+"on the other hand, when using populate for retrieving data… is it possible to do the same to store it?",1
+is it possible to change bcrypt for argon2?,1
+"Is it possible to have a route and a service with the same name, with the route taking precedence?",1
+is it possible to request feathers api without using the feather client?,1
+"Is hook.app.service the only way for a hook to access other services, or is it possible via importing the feathers module somehow?",1
+Is it possible to make hook.app.service('users').hooks('authenticate') writeable in a hook?,1
+"Is it possible to create global hooks for all sub services, like app.hooks?",1
+"ok. alternativelly, is it possible to access middleware.req directly from inside a hook? (to transform my multer middleware to a hook)",1
+is it possible to customize the table names that feathers uses? kebab names are really causing pain,1
+"Hey, is it possible to return something other than an error when handling an error hook? something like hook.result in an after hook",1
+"Hi, is it possible to write a before create hook to check for duplicate records in NeDB and prevent the record being created?",1
+How is it possible to change the 404 error page?,1
+Is it possible to have multiple successRedirects?,1
+"Is it possible to add an auth-token in the register (user create) endpoint, basically automatically longing a user in during registration",1
+"Hello, is it possible to generate services with relations based on an existing database?",1
+Is it possible to return a login token upon registration (user creation),1
+Is it possible to enable raw body parsing for just one service?,1
+is it possible to run a distinct query on mongo via feathers?,1
+"❓ 🙋 How to check existence of a required query field. Otherwise, the error should be thrown automatically. Is it possible using validateSchema hook?",1
+"Hi, how is it possible to change the socket end point (ie url) once the app has already been configured/started ? Thx",1
+is it possible to use in memory services for testing only?,1
+"Hello, Is it possible to get the model from the service by calling the service?",1
+"Hi, is it possible to manipulate or do something with the final result of the populate-hook in feathers-common-hooks?",1
+is it possible to use a database adaptor and have a setup service method?,1
+is it possible to use hook in the feathers populate method as a condition?,1
+is it possible to get my own id in a after hook,1
+Is it possible that the byte # for Content-Length is not calculated correctly?,1
+is it possible that after a patch that the hook is an another one?,1
+How best can I implement it,1
+how can i test routes / middlewares?,1
+Can I add something to the hooks.params.query in a before hook to force the model to include associations? Using sequalize.,1
+"Hey guys, I am getting a Not Authenticated Error with the new auth client, how can I debug this on the feathers server side?",1
+How can I modify a database query with sequelize so that it only retrieves select fields from the database?,1
+can I connect the auth system of wordpress with feathers through a service using the wordpress cookie?,1
+"hey guys, how can I query a table (or use a service) in a global hook?",1
+How can I tell which version of feathers I'm using?,1
+"hey guys, i am exploring feathers. Seems great so far. But i am wondering is it scalable? Can I build complex applications with it?",1
+@marcfawzi where can I read authoritatively about JS heading toward reasonML?,1
+where can I find a list of the events emitted by sockets?,1
+@daffl how can I provide a example?,1
+If I put a hook in all can I disable this hook only for one field?,1
+or can I make it available globally in the app?,1
+How can I generate my jwt token with postman?,1
+how can I access the request object in a service get method?,1
+can i catch NotAuthenticated if the token expired globally?,1
+How can I provide a query parameter that I dont want to include in the actual query for the database,1
+Where can I find information about the syntax of the query string,1
+where can I find the best doc/examples for feathers-permission?,1
+but what else can I expect to be in there? Is that a good place for storing extra information,1
+How can I install the AUK cli?,1
+how can I choose between local auth or facebook auth (oauth2) ?,1
+And how can I implement my own get?,1
+what else can i paste in here that is relevant hmm,1
+"Quick question, can I use the socket.io client for android to connect to feathersjs?",1
+how can I do the include with sequelize inside my userService so I can include the role associated to my user?,1
+how can I get the current user outside of a service? is there anyway to get that info through feathers object directly?,1
+how can I increase JWT expiration time?,1
+"@daffl can I include on a before hook with a model association alias instead of this
+model: hook.app.services.users.Model
+",1
+how can I update? And what is patch?,1
+"where can I read the app env real value? local, development, ...",1
+How can I use token stored in localStorage and if not then use local auth?,1
+"one more question, let say I would like to create Profile in User service, how can I do it in my example above",1
+how can I write a script or something to migrate existing data with new schema,1
+how can I pass the authenticated user so that internal service calls will have it on hook.params.user?,1
+"my question is, how can i make the event model aware of the invitations?",1
+how can I execute a redirect in a custom service ?,1
+Hi everyone! How can I change NotAuthenticated error message ?,1
+help: Can I use Feathersjs as a Unity game backend? We are developing a Chess game for kid now.,1
+"Hi team, How can I get current user with given accessToken, is there any built-in endpoint allow me do it?",1
+"Hey guys, how can I only update one field inside database using feathers-client ?",1
+"hi, how can i use this socketio services in another app? Any one can help me out with some advices. Thanks.",1
+where can I find a list/definition of all methods being dynamically added to a service when starting the app? like filter for example,1
+Can I use feathers client using node ?,1
+But how can I attach those identifiers ? Maybe through query string ?,1
+can I call this server side?,1
+how can i combine two services data from one request,1
+how can i include feathers-hooks-common,1
+"How can I help you, help me?",1
+"Hey guys, how can I add additional field using after hook ?",1
+"Hi all, how can I access the sequelize methods of my models after I define them?",1
+How can I set a temp service listener and then remove it ?,1
+how can I access the data provided from a before hook?,1
+how can i protect my user service in a way that lets auth through but not any old request for any user?,1
+"Hey guys, how can I also populate the patched event ?",1
+Can I use feathers to open my beer?,1
+can i use the feathers hash password outside hooks? how?,1
+How can I set html5 client side routing ?,1
+can I make a conditional populate?,1
+"feathers client seems to override my timeout setting for socket io, how can I avoid this or where should I configure it?",1
+how can I use the preexisting shortcut without allowing external access to feathers port ?,1
+"Hey guys, how can I select WHERE IN AND ? { status: 0, $in: [] }",1
+how can I use feathers-auth to authenticate my user in my middleware ?,1
+how can I update the id field?,1
+and can I $disableSoftDelete within the populate hook?,1
+@eddyystop excellent!!! How can I update my feathers-cli?,1
+@marshall how can I update my old feathers-cli to the auk version?,1
+should I just ignore this warning or how can I update to minimatch 3.0.2 ?,1
+How can I do a find query and find partial matches for string fields?,1
+Hello pls can I create something like Postmates with feathersjs,1
+I have one more question can I set the storage as cookie instead of localStorage on feathers authentication client ?,1
+@marshall i did the redirect from a post to a get with express. How can I access the res.send() inside the service?,1
+How can I really understand this framework?,1
+"Idk if this is a straight up feathersjs question, but I'm using sequelize and wondering how can I associate many-to-many models when creating them?",1
+"ok, got it. So if I need to use a hook to remove the password column, how can I “chain” them?",1
+@marshall where can I ask you something related to can-connect-feathers?,1
+can I extract the conversations from slack?,1
+can I use async/await in featherjs? given my nodejs version supports it,1
+"yes you can !
+can I use async/await in featherjs? given my nodejs version supports it",1
+Hi. How can I change the property name in localStorage which is being used by feathers authentication?,1
+how can I find out which database url feathers is using,1
+I recently updated the cli and generated authentication. How can I get a JWT token locally?,1
+how can I get more verbose errors from authentication?,1
+where can I increase the limit allowed?,1
+how can I prevent a hook from running if one service is called by another?,1
+how can I secure it now?,1
+"Hey, can I generate services without overriding the database connections in config and postgres.js files?",1
+"hello guys, can I .get a service by a custom field besides the ID?",1
+How can I achieve that?,1
+how can I tell if they just post http://localhost:8081/inventory/ without a value,1
+can I do optional authentication?,1
+Can I reliably use both local and remote services on the same feathers-client instance?,1
+2. how can I debug the code on the server side ?,1
+Can i update() multiple datasets at once?,1
+@dnszero so how can I debug my server side code?,1
+But how can I get the results outputted to the client?? Promises are messing with my head 😕,1
+"@dnszero yes, but how can i understand how it works if I cannot read the code? documentation is not much detailed",1
+"Can I see how middleware is defined, just so I know what it looks like?",1
+@marshall can I go into and find function implementation ?,1
+"hi, noob question: how can I get first result of the query, something like App\Flight::where('active', 1)->first();",1
+Can I use feathers-configuration from the client side to 'detect' environment configuration automatically? (i.e. I don't want to hardcode host:port for socket.io),1
+How can I debug every request received by feathers (v2/auk)? is there any simple way of adding a console.log(req) or equivalent?,1
+@silvestreh can I put this info on the token itself ?,1
+how can i reuse an existing service inside another??,1
+@luke can I use the last part of the token as the user id ?,1
+"@ekryski @daffl if you deprecate permissions, can I take it over?",1
+can I get a user's IP from within a before hook?,1
+or how can I debug the query is being processed in my call? Thnkx! 🙌,1
+how can I group those OR conditions in a AND ( … ) or something to that effect?,1
+can I somehow make the feathers client wait for authentication?,1
+"or how can I """"publish"""" this later",1
+can I somehow make the feathers client wait for authentication?,1
+can I use an env var for the db host in prod?,1
+"Hi, how can i do an $like search using Sequelizejs?",1
+async you mean? So the question is: can I overwrite a service methods with an async function?,1
+can i use feathesrclient.service as a service in another feathers app? 🙂,1
+Hi everyone. how can i optimize the speed of my feathers service,1
+how can I do this,1
+How can I use feathersjs's hooks in client side?,1
+"I mean, can I set couple hooks separated with coma?",1
+"I mean, how can I understand what kind of functioanllity is available for me?",1
+@harmony you mean adding the category_id into the products? how can I construct a m-m relationship?,1
+can I somehow keep parameters I assigned via req.feathers.param when I do more internal service calls?,1
+so how can i access the variables inside the function ?,1
+"Hey guys, how can I overwrite the ORM errors ?",1
+"generally if A service context invoke B context and somewhere B fails, can I catch the exception in A context ?",1
+can I list from the client the services that are available?,1
+How the feathers-auth-management sends the verification email? Does it use another mailer package? Can I use mailgun somehow?,1
+"so can i query the database , update it manually and set the hook.result ? is that a good practice?",1
+Hi everyone. can I ask how can I access the app object when I am in the service?,1
+How can I merge client calls ?,1
+where can I find some examples of how associate (models) {} is supposed to work in sequalize?,1
+"Hi. On the server-side, how can I generate a token based on the username and password?",1
+"Hi. On the server-side, how can I generate a token based on the username and password (hashed)?",1
+can I pass custom variable to authenticate? so the API can know whether it should block login from the admin app?,1
+Hi everyone. May I ask how can I do database something like ?receive_datetime=null?,1
+"Hey guys, how can I remove fields with discard from auth service ?",1
+With the feathers-knex can I get a similar behaviour as sequelize for making associations?,1
+can I instead re-use the same generic class file for multiple services?\,1
+how can i deploy a feathersjs app with mongoose on Microsoft Azure?,1
+"@orimoyegun Deploy just as you would a plain JS app.
+how can i deploy a feathersjs app with mongoose on Microsoft Azure?",1
+how can i do a GET call of a web api inside my feathers service,1
+How can I query a belengsToMany association?,1
+can i use both *Mongoose* and *Mongodb* in same project ?,1
+How can I pass throught the Feathers adapter?,1
+I did console log in service. What can I make wrong. I mean just wanted to use that in service file,1
+can I send the token from the oauth provider and send it to feathers and get a token to log in?,1
+"this is wonderful start, can i run the example standalone?",1
+how can I return a custom object on get('custom') ? instead of 404,1
+"but , now, how can I login (let's say, via Postman) in order to get my JWT Access Token?",1
+"How can i add option """"jwtFromRequest: fromUrlQueryParameter(param_name)"""" in feathers-authentication-jwt?",1
+Can I create my own index.js file,1
+can I generate client certs and sign them with let’s encrypt ?,1
+How can I manage authetication with https://github.com/feathersjs/feathers-redux I am trying to understand https://github.com/eddyystop/feathers-reduxify-authentication is there any new documentation?,1
+how can I ensure app() is ready before running my test suite?,1
+"are there any supports for angular 2? if so, can I see what setup is neccessary to use feathers w socket.io ? 🙂 thanks",1
+"Alright, so basically I will make another hook.app.//service call to populate it or can I just set the sequelize params ?",1
+How can I disable REST routes for a service?,1
+"mm... I mean in the case of
+    this.orders = app.service('orders');
+
+    this.orders.on('created', order => this.notifyIfUnassigned(order));
+can I get params as well as order?",1
+"This for example, how can I set the accesstoken in the body of the get request?",1
+Can I remplace body parser with this ?,1
+How can I set headers to use CORS in my app? E. g. my frontend can talk with the backend.,1
+how can i get the proper error message using feathers,1
+"how can i resolve this warning message """"Possible EventEmitter memory leak detected. 65 connection listeners added. Use emitter.setMaxListeners() to increase limit""""",1
+Or can I somehow pass the cookie in the successRedirect?,1
+Any idea how can I fix that…,1
+how can i update a document on the server,1
+- - How Can I get the logged user in a custom service? I found the populateUser used in old version only.,1
+How can I increment / decrement using sequelize ?,1
+How can I send created / patched events only to users that are on the page which refer to that update ?,1
+- Can I change the provider on the first hooks (professional service)? Is a secure approach?,1
+How can I replace the ID field with another field in a create hook?,1
+And later I will see how can I integrate react / react-native,1
+"hmm, so can I do something like app.set(""""dynamicSettings"""", app.service(""""settings"""").find())?",1
+but also how can I make the rest of the app wait for that to be set?,1
+Can I make the ID parameter in a get optional?,1
+Can I have a unique query to load the states instead various queries?,1
+"""""Can I have a unique query to load the states instead various queries?"""" You will have to clarify that.",1
+Found something for Express. Can I do the same here?,1
+How can i use socket connection in services to listen different event of socket?,1
+But how can I authenticate with the feathers client after obtaining the JWT?,1
+"In other words, how can I hide a service from the rest (or any transport in general)?",1
+"Guys, how can I work with auth 2 authentication and a js app? Does someone have a sample?",1
+So how can I harness sequelizes query -> where translations?,1
+"^ How can I do that with Object.assign(hook.params.query, { something: """"else"""" });?",1
+"Hey guys ! On my hook, how can I get my mongo (from mongoose) db connection",1
+Hey guys! How can I generate a token from a custom route using featherjs? Any internal method?,1
+"Hi, how can I work with senecajs + featherjs + rabbitmq?",1
+"hey guys, can i use feathers-vuex in nuxt.js? has anyone some information?",1
+But how can I authenticate with it?,1
+"hi, how can I disable a hook call, when I internally call find function, thanks",1
+or can I simply call an attempt to authenticate and send a strategy name that I already registered in the feathers server?,1
+if so can I add session specific fields to the object?,1
+I am using mongoose. How can I disable update completely?,1
+hello. can I import a json config file using const conf = require('../config.json'),1
+Can I disable pagination for a service when I use the client in the backend?,1
+"Hi, how can I generate a download instead of return json data for a specific service? ... thanks",1
+"How can I get create() to accept a string? app.use('/html-entities-decode', bodyParser.text(), createService(options)); produces this error: {""""name"""":""""GeneralError"""",""""message"""":""""First parameter for 'create' must be an object"""",""""code"""":500,""""className"""":""""general-error"""",""""data"""":{},""""errors"""":{}}",1
+what's the solution for this? can i try to bind to different ports?,1
+can I ask why you're transpiling?,1
+What is the main advantage to using feathersjs-socketio on the client vs vanilla socketio?,1
+You are running a hook. What is the code in the after hooks which runs the hook?,1
+Don't show extracts of code. What is the hook for example?,1
+@daffl what is the hook.result used later for then? not very clear on that,1
+"Next, in the record to be joined, what is the name of the field being referred to by the record above?",1
+What is the name of the service to read the 2nd?,1
+what is the correct way for importing a service from a different script?,1
+What is the syntax for writing a variable inside query ? .find({query: {Year: myVariable}}),1
+"@daffl that looks perfect, what is the best way to import the model into the hook?",1
+And that code is not working you said? What is the error?,1
+@nriesco @eddyystop What is the issue to look for?,1
+What is the best way to check if a user with email address already exists in DB in before:create hook on users service?,1
+What is the service to whose results the users records are bei8ng added?,1
+also I couldn’t run version on feathers-cli. what is the correct command for doing it?,1
+ryder uploaded a file: Untitled,1
+So what is the problem exactly? You are trying to use a custom id property on a mongoose adapter?,1
+Could you please describe what is the approach to achieve this?,1
+What is the right way to implemet bulk service item creation?,1
+"ok, btw, what is the purpose of params on get method ?",1
+"question please, what is the best way to block a certain method on a service from being used ?",1
+@marshall could you please advise on what is the correct synyax to invoke the service patch method call ?,1
+so what is the meaning of the number on the left side ?,1
+"Hi, what is the proper way of doing REST sub-resources in feathers?",1
+anyone knows what is the *instanceName:* config option is used for?,1
+What is the recommended database?,1
+but what is the signup endpoint?,1
+"Hello all, what is the proper way to check a JWT in a hook function assuming the client sends it in the Authorization: header?",1
+what is the preferred approach for nested resources?,1
+"@/all Hello, I wonder what is the context (ie this) within a hook function ?",1
+"One question, what is the defaul secret for the JWT tokens. app.passport.options('jwt').secret",1
+What is the direct Mongoose model call that works for this?,1
+"Hi, what is the best way to restrict the role field for create, update and remove to admins only?",1
+"Hey, what is the proper way to send the auth token to a service that requires authentication using feathers-vuex?",1
+"@ramsestom hi, i am not sure what is the difference between a memory service to a custom one 😊",1
+"Hey, what is the proper way to send the auth token to a service that requires authentication using feathers-vuex?",1
+"What is the difference between using """"feather-client"""" and """"feathers/client"""" ?",1
+One doubt of mine after reviewing the services are what is the use of src/services/my-custom/my-custom.filters.js file ?,1
+What is the intention behind the filtering ? Not getting from the doc . Which data to filter ? Input/Output ?,1
+❓ 🙋 What is the use of the value app.id?,1
+"What is the preferred way to wild-card a path and its sub paths?
+app.service(""""/anthingdownhere/*"""")  // something like this?
+",1
+"Thanks, what is the difference between
+require('feathers-authentication-hooks');
+
+and
+require('feathers-authentication').hooks
+
+which used when importing authenticate method?",1
+"what is the reason of this error 'message: """"the id property must be set on the entity service for authentication""""'",1
+How do I inject a query? Is there any hook? And what is the use of stashBefore hook and when to use it?,1
+I do have the packages installed. What is the endpoint that receive the access_token and logs me in with it?,1
+what is the best way to pop element from array in db?,1
+Need Ethernet access,1
+Create new account and share the username and password,1
+FW: Myspace Login Issue-- Ania,1
+Login credetials are not working.,1
+New Account is needed for a new joinee.,1
+Request to configure the system to share it among users,1
+Needs permission wifi access to laptop,1
+LAN not working in a VM,1
+Wifi access needed.,1
+My Space QA application is down,1
+Configure outlook in my system,1
+Install postgres database on my machine,1
+System showing blue screen on startup,1
+Desktop not working,1
+"System behaving strangely, blue screen is appearing in middle",1
+My Internet is not working,1
+"Account got locked, because of 3 wrong attempts os password. Could you please reset the password",1
+System hangs with blue screen on startup,1
+Unable to connect to Internet,1
+Facing network/internet issue with wifi xwq090,1
+Replace the battery for my Macbook laptop,1
+Computer is not getting switched on,1
+"Forgot the password, can you please reset the password for me.",1
+MySpace Password Expiry,1
+install MS office,1
+Password expired.,1
+Account locked. Not able to login,1
+Are spaces allowed in email addresses?,1
+Can a virus damage computer hardware?,1
+Does Windows come with a virus protection program?,1
+How can I clean my keyboard?,1
+How can I recover a file from the recycle bin?,1
+How can I update my Microsoft Windows computer?,1
+How do I delete Internet cookies?,1
+How do I determine my computer's name?,1
+How do I fix a paper jam?,1
+How do I get into safe mode?,1
+How do I map a network drive?,1
+I am unable to send or receive email?,1
+I can't connect to my network drive anymore?,1
+I can't delete a file because it is being used by Windows?,1
+I can't receive any email attachments?,1
+"I get a 'no signal input' message, what do I do?",1
+"I lost my printer installation disk, how can I install my printer?",1
+If I format or erase my hard drive will it remove a virus?,1
+Is it safe to turn off a Windows computer without doing a shut down?,1
+My Computer doesn’t power up?,1
+My Computer freezes or is behaving strangely?,1
+"My computer does not turn on, what do I do now?",1
+My printer is printing smudged/distorted pages?,1
+Nothing appears on Monitor?,1
+"The wheel on my mouse isn't working properly, what do I do?",1
+"There are black borders on my screen, what do I do?",1
+"There is no display on the monitor, what do I do now?",1
+What do I do if my hard disk fails to work?,1
+What do I do if the image on screen is distorted or skewed?,1
+What do I do when my computer crashes?,1
+What is a computer virus?,1
+Why is my mouse acting erratically?,1
+"Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware",0
+Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock,0
+"[13] An initial public offering (IPO) took place on August 19, 2004, and Google moved to its headquarters in Mountain View, California, nicknamed the Googleplex",0
+"
+ 
+ The company's rapid growth since incorporation has triggered a chain of products, acquisitions, and partnerships beyond Google's core search engine (Google Search)",0
+"It offers services designed for work and productivity (Google Docs, Google Sheets, and Google Slides), email (Gmail), scheduling and time management (Google Calendar), cloud storage (Google Drive), instant messaging and video chat (Duo, Hangouts), language translation (Google Translate), mapping and navigation (Google Maps, Waze, Google Earth, Street View), video sharing (YouTube), note-taking (Google Keep), and photo organizing and editing (Google Photos)",0
+"The company leads the development of the Android mobile operating system, the Google Chrome web browser, and Chrome OS, a lightweight operating system based on the Chrome browser",0
+"Google has moved increasingly into hardware; from 2010 to 2015, it partnered with major electronics manufacturers in the production of its Nexus devices, and it released multiple hardware products in October 2016, including the Google Pixel smartphone, Google Home smart speaker, Google Wifi mesh wireless router, and Google Daydream virtual reality headset",0
+"Google was the most valuable brand in the world as of 2017,[16] but has received significant criticism involving issues such as privacy concerns, tax avoidance, antitrust, censorship, and search neutrality",0
+"
+ 
+ Google began in January 1996 as a research project by Larry Page and Sergey Brin when they were both PhD students at Stanford University in Stanford, California",0
+"[17] The project initially involved an unofficial ""third founder"", Scott Hassan, the original lead programmer who wrote much of the code for the original Google Search engine, but he left before Google was officially founded as a company;[18][19] Hassan went on to pursue a career in robotics and founded the company Willow Garage in 2006",0
+"[20][21]
+ 
+ While conventional search engines ranked results by counting how many times the search terms appeared on the page, they theorized about a better system that analyzed the relationships among websites",0
+"[22] They called this algorithm PageRank; it determined a website's relevance by the number of pages, and the importance of those pages that linked back to the original site",0
+"[18]
+ 
+ Page and Brin originally nicknamed the new search engine ""BackRub"", because the system checked backlinks to estimate the importance of a site",0
+[25][26][27] Hassan as well as Alan Steremberg were cited by Page and Brin as being critical to the development of Google,0
+"Rajeev Motwani and Terry Winograd later co-authored with Page and Brin the first paper about the project, describing PageRank and the initial prototype of the Google search engine, published in 1998",0
+"[28] PageRank was influenced by a similar page-ranking and site-scoring algorithm earlier used for RankDex, developed by Robin Li in 1996, with Larry Page's PageRank patent including a citation to Li's earlier RankDex patent; Li later went on to create the Chinese search engine Baidu",0
+"[29][30][31]
+ 
+ Eventually, they changed the name to Google; the name of the search engine originated from a misspelling of the word ""googol"",[32][33] the number 1 followed by 100 zeros, which was picked to signify that the search engine was intended to provide large quantities of information",0
+"[34]
+ 
+ The domain name for Google was registered on September 15, 1997,[36] and the company was incorporated on September 4, 1998",0
+"[17][37][38]
+ 
+ Google was initially funded by an August 1998 contribution of $100,000 from Andy Bechtolsheim, co-founder of Sun Microsystems; the money was given before Google was incorporated",0
+"[40] Between these initial investors, friends, and family Google raised around 1 million dollars, which is what allowed them to open up their original shop in Menlo Park, California",0
+"[41]
+ 
+ After some additional, small investments through the end of 1998 to early 1999,[40] a new $25 million round of funding was announced on June 7, 1999,[42] with major investors including the venture capital firms Kleiner Perkins and Sequoia Capital",0
+"At that time Larry Page, Sergey Brin, and Eric Schmidt agreed to work together at Google for 20 years, until the year 2024",0
+"[56][57] Shares were sold in an online auction format using a system built by Morgan Stanley and Credit Suisse, underwriters for the deal",0
+"[65]
+ 
+ In 2005, The Washington Post reported on a 700 percent increase in third-quarter profit for Google, largely thanks to large companies shifting their advertising strategies from newspapers, magazines, and television to the Internet",0
+"[54]
+ 
+ On August 15, 2011, Google made its largest-ever acquisition to date when it announced that it would acquire Motorola Mobility for $12",0
+"5 billion[68][69] This purchase was made in part to help Google gain Motorola's considerable patent portfolio on mobile phones and wireless technologies, to help protect Google in its ongoing patent disputes with other companies,[70] mainly Apple and Microsoft,[71] and to allow it to continue to freely offer Android",0
+"[72]
+ 
+ The year 2012 was the first time that Google generated $50 billion in annual revenue, generating $38 billion the previous year",0
+And we hit $50 billion in revenues for the first time last year – not a bad achievement in just a decade and a half,0
+"[74] While Waze would remain an independent entity, its social features, such as its crowdsourced location platform, were reportedly valuable integrations between Waze and Google Maps, Google's own mapping service",0
+"[75]
+ 
+ Google announced the launch of a new company, called Calico, on September 19, 2013, to be led by Apple Inc",0
+"In the official public statement, Page explained that the ""health and well-being"" company would focus on ""the challenge of ageing and associated diseases""",0
+"[76]
+ 
+ On January 26, 2014, Google announced it had agreed to acquire DeepMind Technologies, a privately held artificial intelligence company from London",0
+[77] Technology news website Recode reported that the company was purchased for $400 million though it was not disclosed where the information came from,0
+"[80]
+ 
+ According to Interbrand's annual Best Global Brands report, Google has been the second most valuable brand in the world (behind Apple Inc",0
+"[90]
+ 
+ On August 8, 2017, Google fired employee James Damore after he distributed a memo throughout the company which argued that bias and ""Google's ideological echo chamber"" clouded their thinking about diversity and inclusion, and that it is also biological factors, not discrimination alone, that cause the average woman to be less interested than men in technical positions",0
+"[91] Google CEO Sundar Pichai accused Damore in violating company policy by ""advancing harmful gender stereotypes in our workplace"", and he was fired on the same day",0
+"[95][96]
+ 
+ Between 2018 and 2019, tensions between the company's leadership and its workers escalated as staff protested company decisions on internal sexual harassment, a censored Chinese search engine, and a military drone artificial intelligence, which had been seen as areas of revenue growth for the company",0
+"[97][98] On October 25, 2018, The New York Times published the exposé, ""How Google Protected Andy Rubin, the ‘Father of Android’""",0
+"[99] On November 1, 2018, more than 20,000 Google employees and contractors staged a global walk-out to protest the company's handling of sexual harassment complaints",0
+"[98]
+ 
+ On March 19, 2019, Google announced that it would enter the video game market, launching a cloud gaming platform called Stadia",0
+"[103]
+ 
+ In December 2019, it was reported that former PayPal Chief Operating Officer Bill Ready would become Google's new commerce chief",0
+"[104]
+ 
+ In April 2020, it was reported that Google announced several cost-cutting measures as a response to the economic impact of the 2019–20 coronavirus pandemic",0
+"Such measures included slowing down hiring for the remainder of 2020, except for of a small number of strategic areas, recalibrating the focus and pace of investments in areas like data centers and machines, and non-business essential marketing and travel",0
+"[114] In addition to its own algorithms for understanding search requests, Google uses technology from the company DoubleClick, to project user interest and target advertising to the search context and the user history",0
+"[117]
+ 
+ Google Analytics allows website owners to track where and how people use their website, for example by examining click rates for all the links on a page",0
+"[119] The sister service, Google AdSense, allows website owners to display these advertisements on their website and earn money every time ads are clicked",0
+"[120] One of the criticisms of this program is the possibility of click fraud, which occurs when a person or automated script clicks on advertisements without being interested in the product, causing the advertiser to pay money to Google unduly",0
+"[121] Google Search Console (rebranded from Google Webmaster Tools in May 2015) allows webmasters to check the sitemap, crawl rate, and for security issues of their websites, as well as optimize their website's visibility",0
+"[139] It spawned a number of phones and tablets under the ""Nexus"" branding[140] until its eventual discontinuation in 2016, replaced by a new brand called Pixel",0
+"[143][144]
+ 
+ In June 2014, Google announced Google Cardboard, a simple cardboard viewer that lets user place their smartphone in a special front compartment to view virtual reality (VR) media",0
+"[147]
+ Google Home, an Amazon Echo-like voice assistant placed in the house that can answer voice queries, play music, find information from apps (calendar, weather etc",0
+"The Google Home line also includes variants such as the Google Home Hub, Google Home Mini, and Google Home Max[148]
+ Daydream View virtual reality headset that lets Android users with compatible Daydream-ready smartphones put their phones in the headset and enjoy VR content",0
+"[150]
+ G Suite is a monthly subscription offering for organizations and businesses to get access to a collection of Google's services, including Gmail, Google Drive and Google Docs, Google Sheets and Google Slides, with additional administrative tools, unique domain names, and 24/7 support",0
+"[151]
+ 
+ On September 24, 2012,[152] Google launched Google for Entrepreneurs, a largely not-for-profit business incubator providing startups with co-working spaces known as Campuses, with assistance to startup founders that may include workshops, conferences, and mentorships",0
+"
+ 
+ On March 15, 2016, Google announced the introduction of Google Analytics 360 Suite, ""a set of integrated data and marketing analytics products, designed specifically for the needs of enterprise-class marketers"" which can be integrated with BigQuery on the Google Cloud Platform",0
+"Among other things, the suite is designed to help ""enterprise class marketers"" ""see the complete customer journey"", generate ""useful insights"", and ""deliver engaging experiences to the right people""",0
+"[154] Jack Marshall of The Wall Street Journal wrote that the suite competes with existing marketing cloud offerings by companies including Adobe, Oracle, Salesforce, and IBM",0
+"[60] The stock performed well after the IPO, with shares hitting $350 for the first time on October 31, 2007,[169] primarily because of strong sales and earnings in the online advertising market",0
+"[170] The surge in stock price was fueled mainly by individual investors, as opposed to large institutional investors and mutual funds",0
+"[171] The company is listed on the NASDAQ stock exchange under the ticker symbols GOOGL and GOOG, and on the Frankfurt Stock Exchange under the ticker symbol GGQ1",0
+"Out of the five largest American technology companies, it pays the lowest taxes to the countries of origin of its revenues",0
+"[177]
+ 
+ Google said it overhauled its controversial global tax structure and consolidated all of its intellectual property holdings back to the US",0
+"[178]
+ 
+ Google Vice-President Matt Brittin testified to the Public Accounts Committee of the UK House of Commons that his UK sales team made no sales and hence owed no sales taxes to the UK",0
+"[179] In January 2016, Google reached a settlement with the UK to pay £130m in back taxes plus higher taxes in future",0
+"[182]
+ he name ""Google"" originated from a misspelling of ""googol"",[183][184] which refers to the number represented by a 1 followed by one-hundred zeros",0
+"Page and Brin write in their original paper on PageRank:[28] ""We chose our systems name, Google, because it is a common spelling of googol, or 10100 and fits well with our goal of building very large-scale search engines",0
+"Having found its way increasingly into everyday language, the verb ""google"" was added to the Merriam Webster Collegiate Dictionary and the Oxford English Dictionary in 2006, meaning ""to use the Google search engine to obtain information on the Internet",0
+"[185][186] Google's mission statement, from the outset, was ""to organize the world's information and make it universally accessible and useful"",[187] and its unofficial slogan is ""Don't be evil""",0
+"[188] In October 2015, a related motto was adopted in the Alphabet corporate code of conduct by the phrase: ""Do the right thing""",0
+"[191] Since 1998, Google has been designing special, temporary alternate logos to place on their homepage intended to celebrate holidays, events, achievements and people",0
+[192][193] The doodle was designed by Larry Page and Sergey Brin to notify users of their absence in case the servers crashed,0
+"Subsequent Google Doodles were designed by an outside contractor, until Larry and Sergey asked then-intern Dennis Hwang to design a logo for Bastille Day in 2000",0
+"Its first on April 1, 2000 was Google MentalPlex which allegedly featured the use of mental power to search the web",0
+"[195] In 2007, Google announced a free Internet service called TiSP, or Toilet Internet Service Provider, where one obtained a connection by flushing one end of a fiber-optic cable down their toilet",0
+"[196]
+ 
+ Google's services contain easter eggs, such as the Swedish Chef's ""Bork bork bork,"" Pig Latin, ""Hacker"" or leetspeak, Elmer Fudd, Pirate, and Klingon as language selections for its search engine",0
+"[197] When searching for the word ""anagram,"" meaning a rearrangement of letters from one word to form other valid words, Google's suggestion feature displays ""Did you mean: nag a ram",0
+"[198]
+ On Fortune magazine's list of the best companies to work for, Google ranked first in 2007, 2008 and 2012,[199][200][201] and fourth in 2009 and 2010",0
+[202][203] Google was also nominated in 2010 to be the world's most attractive employer to graduating students in the Universum Communications talent attraction index,0
+"[204] Google's corporate philosophy includes principles such as ""you can make money without doing evil,"" ""you can be serious without a suit,"" and ""work should be challenging and the challenge should be fun",0
+"[9] Google's 2017 diversity report states that 31 percent of its workforce are women and 69 percent are men, with the ethnicity of its workforce being predominantly white (56%) and Asian (35%)",0
+"Employees are split into six hierarchies based on experience and can range ""from entry-level data center workers at level one to managers and experienced engineers at level six",0
+"[207] As a motivation technique, Google uses a policy known as Innovation Time Off, where Google engineers are encouraged to spend 20% of their work time on projects that interest them",0
+"[208] In a talk at Stanford University, Marissa Mayer, Google's Vice-President of Search Products and User Experience until July 2012, showed that half of all new product launches in the second half of 2005 had originated from the Innovation Time Off",0
+"[209]
+ 
+ In 2005, articles in The New York Times[210] and other sources began suggesting that Google had lost its anti-corporate, no evil philosophy",0
+"[211][212][213] In an effort to maintain the company's unique culture, Google designated a Chief Culture Officer whose purpose was to develop and maintain the culture and work on ways to keep true to the core values that the company was founded on",0
+"[215][216] In 2013, a class action against several Silicon Valley companies, including Google, was filed for alleged ""no cold call"" agreements which restrained the recruitment of high-tech employees",0
+"[217]
+ Google's headquarters in Mountain View, California is referred to as ""the Googleplex"", a play on words on the number googolplex and the headquarters itself being a complex of buildings",0
+"[218]
+ 
+ In 2006, Google moved into about 300,000 square feet (27,900 m2) of office space in New York City, at 111 Eighth Avenue in Manhattan",0
+"The office was designed and built specially for Google, and houses its largest advertising sales team, which has been instrumental in securing large partnerships",0
+The sale is touted as one of the most expensive real estate transactions for a single building in the history of New York,0
+"[222][223][224][225] In November 2018, Google announced its plan to expand its New York City office to a capacity of 12,000 employees",0
+"[226] The same December, it was announced that a $1 billion, 1,700,000-square-foot (160,000 m2) headquarters for Google would be built in Manhattan's Hudson Square neighborhood",0
+"[227][228] Called Google Hudson Square, the new campus is projected to more than double the number of Google employees working in New York City",0
+"[230] In November 2006, Google opened offices on Carnegie Mellon's campus in Pittsburgh, focusing on shopping-related advertisement coding and smartphone applications and programs",0
+"include Atlanta, Georgia; Austin, Texas; Boulder, Colorado; Cambridge, Massachusetts; San Francisco, California; Seattle, Washington; Kirkland, Washington; Birmingham, Michigan; Reston, Virginia, and Washington, D",0
+"[233]
+ 
+ 
+ Google's Dublin Ireland office, headquarters of Google Ads for Europe
+ It also has product research and development operations in cities around the world, namely Sydney (birthplace location of Google Maps)[234] and London (part of Android development)",0
+"[235] In November 2013, Google announced plans for a new London headquarter, a 1 million square foot office able to accommodate 4,500 employees",0
+"Recognized as one of the biggest ever commercial property acquisitions at the time of the deal's announcement in January,[236] Google submitted plans for the new headquarter to the Camden Council in June 2017",0
+"[249]
+ 
+ Google disclosed in September 2011 that it ""continuously uses enough electricity to power 200,000 homes"", almost 260 million watts or about a quarter of the output of a nuclear power plant",0
+"[251] In February 2010, the Federal Energy Regulatory Commission FERC granted Google an authorization to buy and sell energy at market rates",0
+[252] The corporation exercised this authorization in September 2013 when it announced it would purchase all the electricity produced by the not-yet-built 240-megawatt Happy Hereford wind farm,0
+"[253]
+ 
+ In July 2010, Google signed an agreement with an Iowa wind farm to buy 114 megawatts of energy for 20 years",0
+"[254]
+ 
+ In December 2016, Google announced that—starting in 2017—it will power all of its data centers, as well as all of its offices, from 100% renewable energy",0
+"Google also stated that it does not count that as its final goal; it says that ""since the wind doesn't blow 24 hours a day, we'll also broaden our purchases to a variety of energy sources that can enable renewable power, every hour of every day""",0
+"Additionally, the project will ""help support communities"" around the world, as the purchase commitments will ""result in infrastructure investments of more than $3",0
+"5 billion globally"", and will ""generate tens of millions of dollars per year in revenue to local property owners, and tens of millions more to local and national governments in tax revenue""",0
+"[258]
+ 
+ In September 2019, Google's chief executive announced plans for a $2 billion wind and solar investment, the biggest renewable energy deal in corporate history",0
+"[259]
+ 
+ Google donates to politicians who deny climate change including Jim Inhofe as well as sponsoring climate change denial political groups including the State Policy Network and the Competitive Enterprise Institute",0
+"[260][261][262]
+ Google's market dominance has led to prominent media coverage, including criticism of the company over issues such as aggressive tax avoidance,[273] search neutrality, copyright, censorship of search results and content,[274] and privacy",0
+"[275][276] Other criticisms include alleged misuse and manipulation of search results, its use of others' intellectual property, concerns that its compilation of data may violate people's privacy, and the energy consumption of its servers, as well as concerns over traditional business issues such as monopoly, restraint of trade, anti-competitive practices, and patent infringement",0
+"
+ 
+ Google formerly adhered to the Internet censorship policies of China,[277] enforced by means of filters colloquially known as ""The Great Firewall of China"", but no longer does so",0
+"As a result, all Google services except for Chinese Google Maps are blocked from access within mainland China without the aid of VPNs, proxy servers, or other similar technologies",0
+"The Intercept reported in August 2018 that Google is developing for the People's Republic of China a censored version of its search engine (known as Dragonfly) ""that will blacklist websites and search terms about human rights, democracy, religion, and peaceful protest""",0
+"[280]
+ 
+ Following media reports about PRISM, NSA's massive electronic surveillance program, in June 2013, several technology companies were identified as participants, including Google",0
+"[282]
+ 
+ Google has worked with the United States Department of Defense on drone software through the 2017 ""Project Maven"" that could be used to improve the accuracy of drone strikes",0
+"[283] Thousands of Google employees, including senior engineers, have signed a letter urging Google CEO Sundar Pichai to end a controversial contract with the Pentagon",0
+A major hub for critics of Google in order to organize to abstain from using Google products is the Reddit page for the subreddit /r/degoogle,0
+"[287]
+ 
+ In April 2019 former Mozilla executive Jonathan Nightingale accused Google of intentionally and systematically sabotaging the Firefox browser over the past decade in order to boost Chrome's adoption",0
+"[288]
+ 
+ In November 2019, the Office for Civil Rights of the Department of Health and Human Services began investigation into Project Nightingale, to assess whether the ""mass collection of individuals’ medical records"" complied with HIPAA",0
+"[290]
+ Google has been involved in a number of lawsuits including the High-Tech Employee Antitrust Litigation which resulted in Google being one of four companies to pay a $415 million settlement to employees",0
+"[292] Commenting on the penalty, New Scientist magazine said: ""The hefty sum – the largest ever doled out by the EU's competition regulators – will sting in the short term, but Google can handle it",0
+The real impact of the ruling is that Google must stop using its dominance as a search engine to give itself the edge in another market: online price comparisons,0
+The abuse of dominant position has been referred to Google's constraint applied on Android device manufacturers and network operators to ensure that traffic on Android devices goes to the Google search engine,0
+"[297]
+ 
+ On January 21, 2019, French data regulator CNIL imposed a record €50 million fine on Google for breaching the European Union's General Data Protection Regulation",0
+69 billion) fine on Google for preventing rivals from being able to “compete and innovate fairly” in the online advertising market,0
+[299] European Union competition commissioner Margrethe Vestager said Google had violated EU antitrust rules by “imposing anti-competitive contractual restrictions on third-party websites” that required them to exclude search results from Google's rivals,0
+"Kent Walker, Google's senior vice-president of global affairs, said the company had “already made a wide range of changes to our products to address the Commission’s concerns,” and that ""we'll be making further updates to give more visibility to rivals in Europe",0
+"[300]
+ 
+ On July 25, 2019, presidential hopeful Tulsi Gabbard sued Google for blocking her ads after the presidential debate when she became one of the most searched items on the search engine",0
+Americans seem more interested in inauguration protests than in the inauguration,0
+People are being told not to watch Inauguration,0
+Michael Moore reveals plans for major protest at Donald Trump inauguration,0
+PROJECT VERITAS - Part I: Undercover investigation exposes groups plotting criminal activity at Trump inauguration,0
+It's official: Trump will become the first U.S. President to support gay marriage starting from Inauguration Day. (What a shame if this reached /r/all),0
+Anyone going to Washington to watch the inauguration of President Trump?,0
+WE MUST STOP TRUMP'S INAUGURATION,0
+"Discussion Thread for Veep S05E10 - """"Inauguration"""" [Season Finale]",0
+PROJECT VERITAS - Part II: NEW Investigation Uncovers Plot to Chain the Trains & Shut Down DC During Inauguration,0
+"""""Taylor Swift and Kanye to perform at Trump inauguration"""" - MEME THIS INTO REALITY!",0
+Where Donald Trump thinks guns should be allowed: ✔️ Schools ✔️ Movie Theaters ❌ His Inauguration,0
+"2,000 GM workers to lose jobs on Trump Inauguration Day",0
+Bill Clinton's view at today's inauguration,0
+15 DAYS UNTIL INAUGURATION! This BASED young Operapede will sing the Star Spangled Banner at Donald Trump's Inauguration in the face of much hatred from crybullies. Let's show he she has a home at the_Donald,0
+"Silly question time - if Hillary Clinton becomes President, what should she wear to the inauguration ball?",0
+35 Days to Inauguration,0
+BREAKING: Rosie O'Donnell says to 'disrupt the inauguration'.,0
+President Obama's Appreciation of his Inauguration,0
+"John Lewis to skip inauguration, says Trump not a 'legitimate president'",0
+BREAKING: Crooked Hillary Will Attend Trump Inauguration!,0
+"This piece of shit, Michael Moore, is INCITING VIOLENCE and URGING people to disrupt Trump's inauguration on Jan. 20th!",0
+"The first-known photograph of a presidential inauguration, March 1857. [789 x 683]",0
+Kek wills it folks. GET AUSTIN HILBOURN TO THE INAUGURATION. MEME THIS INTO EXISTENCE!,0
+Putin meme market is in a bubble! Short sell your rare Vlads for a quick profit before inauguration day.,0
+Kanye West On Donald Trump’s Inauguration: He’d ‘Love’ To Perform At The Event,0
+Alex Jones today and HRC at inauguration,0
+Trump's Inauguration...,0
+There are as many sexes as there are days until Trump's inauguration.,0
+Turns Out John Lewis Doesn't Acknowledge ANY Elected Republican As a Legitimate President. Here's what Lewis was up to during the Bush Inauguration.,0
+"10,000 BIKERS FOR Trump will be at the inauguration on January 20 to help protect Presidential Donald Trump. We love BIKERS FOR Trump!",0
+"Canadian Scientists Warn U.S. Colleagues: Act Now to Protect Science under Trump - Back up data and speak out ahead of next month’s inauguration, they advise",0
+Nigel Farage Will Attend Trump Inauguration!,0
+"President Trump: “Many of the celebrities that are saying they’re not going (to inauguration), they were never invited.” #Hannity",0
+Sibling photobomb at the inauguration,0
+Report: Donald Trump Wants Benjamin Netanyahu At Inauguration!,0
+"CAN'T MAKE THIS UP : """"WOMEN ACTIVISTS TAKING PART IN INAUGURATION PROTEST ARE NOW FIGHTING OVER WHO IS OPPRESSED MORE""""",0
+"Paul Joseph Watson: Given the insane number of death threats against Trump, why is CNN inciting an attack on the inauguration?",0
+"New intelligence DOSSIER surfaces, claiming Hillary plans on killing a dozen white Russians during Trump's inauguration!",0
+Is there an inauguration protest not connected with councilmember Sawant?,0
+RT WAS JUST BANNED FROM FACEBOOK UNTIL AFTER THE INAUGURATION!,0
+Trump's Inauguration Simpsonised,0
+Conway Cancels Canada Trip After Trudeau Ducks Inauguration,0
+Black Marching Band Ignores Race-Baiting Critics – WILL Participate In Trump Inauguration,0
+Let's show those Libtards that we appreciate 3 Doors Down performing at inauguration even if they don't!,0
+BREAKING from Project Veritas: DC Antifa planning to pump Butyric Acid and chemicals into Inauguration Ball,0
+"304-227 = 77 electoral vote margin. Kek had the two defectors defect to honor Trump with Dubs. Trump will be 70 years, 7 months, and 7 days old on Inauguration Day. Meme Magic, Fam....IT'S REAL",0
+Mormons Petition To Stop Tabernacle Choir From Singing At Trump’s Inauguration,0
+"2 Chainz Refuses Trump Inauguration Performance Invite: """"I know they only doing this because they can’t get nobody else""""",0
+"Trump: I don't need """"‘A’ list"""" celebrities at inauguration, just """"the people""""",0
+"On Inauguration Day, I will officially be 104 days sober. REMEMBER: NO DRUGS, ALCOHOL, OR CIGARETTES. Thank you Mr. Trump for being such a great role model.",0
+I'm going to be posting a number everyday to symbolize the days until Trump's inauguration.,0
+"Can we get some love for the Bikers for Trump who will form a """"wall of meat"""" to prevent violence on Inauguration Day!",0
+When you leave Trump's inauguration and there's 20 FBI vans waiting for you.,0
+Mormons Petition To Stop Tabernacle Choir From Singing At Trump’s Inauguration,0
+"Trump: I don't need """"‘A’ list"""" celebrities at inauguration, just """"the people""""",0
+I urge President Elect Trump to invite some Amish Folks to a Place of Honor at the Inauguration. They Turned to Win Pennsylvania.,0
+Message to SJW's: this is how many days until Trump's inauguration,0
+Biker Pepe heard about the thousands of bikers attending the inauguration and wants to join!,0
+Presidential Inauguration Megathread,0
+James O'Keefe: Why won't @foxnews have me on but they invite lacy macauley who very well may be inciting chaos at the President Elect's inauguration?,0
+"Thank you liberals! If you had not been such extreme intolerant bullying assholes, Friday might have been Hillary's inauguration.",0
+Trump inauguration,0
+"TIL that when the Super Bowl and the Presidential Inauguration conflicted, the President did the coin toss ceremony for the Super Bowl and had his public inauguration the next day.",0
+"My girlfriend and I just received our official tickets to the Presidential Inauguration. As Trump supporters from New York, we are very excited to meet our fellow Deplorables!",0
+"If we had just elected our first LGBT President, I would bet good money that the Mormon Tabernacle Choir would NOT have accepted an invite to perform at the inauguration. They will, however, perform for the pussy grabber. #FamilyValues",0
+Women's March on Washington could outdraw Trump's inauguration,0
+North Carolina School District Requires Parental Permission for Students to Watch Trump Inauguration ... But Men Can Use The Bathroom With Your Daughters...,0
+Ted Nugent and Kid Rock basically the only musicians willing to play Trump’s inauguration,0
+Any Protests On Inauguration Day in SD?,0
+"I know donations to HRC's charity were a big point of contention for Trump supporters. How does news that Trump sons are """"selling"""" tickets to inauguration through their charity sit with Trump supporters?",0
+"Following Negotiations, No Rockettes Will Be Required To Perform At Inauguration",0
+ISIS declares war on Inauguration Day,0
+Free marijuana on Inauguration Day,0
+"Stay away from Bristol in santa ana this friday. there is a Inauguration """"protest"""" being promoted at 7pm.",0
+Any Protests On Inauguration Day in SD?,0
+Free marijuana on Inauguration Day,0
+AHAHAHAHAHAHAHA Trump raises more for his inauguration than Obama's 2009 and 2013 inaugurations COMBINED!,0
+The Presidential Inauguration,0
+Donald Trump to Use Lincoln Bible for Inauguration,0
+EXCLUSIVE: ISIS Declares WAR On Trump's Inauguration Cay Calling It 'BLOODY FRIDAY',0
+John Lewis lied about this being the first inauguration he's skipping,0
+D.C. Dress Shops Dispute Trump's Claim That They Are 'Sold-Out' for Inauguration: 'There's Never Been Less Demand',0
+Judge Jeanine Pirro - Just 12 Days Until The Presidential Inauguration & President Trump,0
+The Official Portrait of Donald Trump released by the Presidential Inauguration Committee.,0
+Stop the inauguration! I just discovered our President-Elect got an F in second grade gym class!,0
+HAHAHAHAHAHAHAHAA IM SO DEAD. NEW YORK GOVERNOR ANDREW CUOMO BOOKED 200 HOTEL ROOMS FOR HILLARYS INAUGURATION AND WAS FORCED TO OFFER THEM TO NY REPUBLICAN PARTY CHAIRMAN ED COX,0
+Trump can't even convince X Factor losers to sing at his inauguration,0
+The Director of the Talladega Marching Band is receiving DEATH THREATS for bringing his HIGHLY TALENTED and WONDERFUL band to perform at the Trump Inauguration. Let's show them that CRYBULLIES can't suppress FREEDOM and they have our FULL SUPPORT,0
+"GOOD VIBES - The Beach Boys considering playing Trump's inauguration, let them know this is a no-brainer!",0
+Rosie O’Donnell: I support martial law to delay Trump inauguration,0
+"Radio City Rockettes """"Appalled"""" Over Trump Inauguration Command Performance",0
+More and more congress members are not attending Donald Trump’s inauguration,0
+National Park Service Starts Releasing Permits to Allow Protests During Trump's Inauguration,0
+Poll: Trump approval rating hits new low hours before inauguration,0
+Inauguration performer Jackie Evancho’s album sales skyrocket,0
+It's official: Trump will become the first U.S. President to have no idea about the duties of the POTUS starting from Inauguration Day. (What a shame if this reached /r/all),0
+Trump inauguration boycott escalates,0
+Trump Fires All Obama Politically Appointed Ambassadors Effective Inauguration Day,0
+More and more congress members are not attending Donald Trump’s inauguration,0
+National Park Service Starts Releasing Permits to Allow Protests During Trump's Inauguration,0
+"GOOD VIBES - The Beach Boys considering playing Trump's inauguration, let them know this is a no-brainer!",0
+"Don't worry Daaahhhnald, I've infiltrated the inauguration protests. No snivlin' cowards will be interrupting your ascendancy.",0
+HAHAHAHAHAHAHAHAA IM SO DEAD. NEW YORK GOVERNOR ANDREW CUOMO BOOKED 200 HOTEL ROOMS FOR HILLARYS INAUGURATION AND WAS FORCED TO OFFER THEM TO NY REPUBLICAN PARTY CHAIRMAN ED COX,0
+It's official: Trump will become the first U.S. President to have no idea about the duties of the POTUS starting from Inauguration Day. (What a shame if this reached /r/all),0
+Trump Lewis row: Democrat inauguration boycott grows,0
+Trump wins applause for his ‘refreshing’ celebrity-free inauguration,0
+"Caitlyn Jenner to Attend Donald Trump's Inauguration, Lefties Lose Their Minds",0
+Judge Jeanine Pirro - Just 12 Days Until The Presidential Inauguration & President Trump,0
+The Official Portrait of Donald Trump released by the Presidential Inauguration Committee.,0
+Donald Trump will have a 1 hour presidential parade instead on 6 hours; host 3 presidential balls instead of 10; has banned lobbyists from contributing to inauguration events; and will start overturning Obama’s executive orders before he leaves capital for the white house. DTS starts day 1,0
+Garth Brooks to sing at Trump Inauguration! Let's get this patriot a coat!!,0
+Project Veritas Part II: NEW Investigation Uncovers Plot to Chain the Trains and Shut Down DC During Inauguration,0
+EXCLUSIVE: ISIS Declares WAR On Trump's Inauguration Cay Calling It 'BLOODY FRIDAY',0
+Three Times As Many Bus Permits Have Been Requested For The Women's March Than For Inauguration,0
+Trump inauguration boycott escalates,0
+Michael Moore calls for protesters to 'disrupt' Trump's inauguration,0
+Let's give credit where credit is due: Jimmy Carter was the ONLY former US President to RSVP to Trump's inauguration... and he's a DEMOCRAT! Very respectable man.,0
+Trump Inauguration To Be Met By Mass ‘Women’s March On Washington’,0
+Inauguration performer Jackie Evancho’s album sales skyrocket,0
+BASED BIBI WANTS TO ATTEND INAUGURATION!,0
+"TIL it snowed 8 inches on the eve of John F. Kennedy's inauguration. To clear Pennsylvania Avenue, an army of men worked all night, using flame-throwers.",0
+"Let's see, landslide election, December 19th electoral vote, January 20th Inauguration Day, First 100 days in office, Trump wins 2020 election with 95% of the vote! What should we drink?",0
+Donald Trump will violate the US constitution on inauguration day,0
+MIDDAY MAGA!! 1/19/2017 LES DEPLORABLES / ONE DAY MORE!!,0
+Wild Theory: Netflix will surprise drop season 5 on inauguration day,0
+When it's officially 2017 but you still have to wait 19 days for Trump's inauguration,0
+Inauguration of Dat Azz,0
+Travis Greene - Gospel Singer Not Afraid to Say He's Performing at Donald Trump Inauguration,0
+"Obama trumps Trump and permanently bans Arctic drilling ahead of inauguration - including today's announcement, nearly 125 million acres in the Arctic have been set aside from oil and gas activity since last year.",0
+Lets Give This Man A Hand..... Toby Keith: I Won't 'Apologize' for Playing Trump Inauguration,0
+Manasvi Mamgai former Miss India and Donald Trump supporter to perform with Bollywood celebrities at Trump inauguration ceremony on January 20.,0
+NEW UK CONSERVATIVE PRIME MINISTER INAUGURATION,0
+"President Trump: John Lewis said about my inauguration, """"It will be the first one that I've missed."""" WRONG (or lie)! He boycotted Bush 43 also because he """"thought it would be hypocritical to attend Bush's swearing-in....he doesn't believe Bush is the true elected president."""" Sound familiar! WP",0
+Whoops! Definitely-Not-Senile John Lewis Says He FORGOT He Boycotted W’s Inauguration,0
+<------------- Number of special interest lobbyists that will be out of job the day of PRESIDENT SANDERS inauguration,0
+"Tried to take a photo of US Capitol at Inauguration, but someone waved a flag in front. You can still see the Capitol.",0
+PROJECT VERITAS: BREAKING NEW Undercover Video Exposes Criminal Plot To Disrupt Donald Trump Inauguration,0
+This girl was at presidents inauguration today making a flag.,0
+"President Trump: Jackie Evancho's album sales have skyrocketed after announcing her Inauguration performance.Some people just don't understand the """"Movement""""",0
+Starbucks during Inauguration,0
+Donald Trump immediately after inauguration.,0
+Can this based Indian goddess get some love for performing at the Donald's inauguration???,0
+Trump Is Ordering All Ambassadors Appointed By Obama To Leave Their Post By Inauguration Day!,0
+Is it just me or does everyone else keep expecting John Lewis to declare the inauguration a trap?,0
+Let's hear it for Toby Keith. This amazing singer will be playing at Trump's inauguration!,0
+So much for a boycott! Designers at war to dress Melania Trump for inauguration after liberal dressmakers insisted fashion pack would desert new First Lady,0
+Protesters forgot about our private security team for the inauguration...,0
+Let's hear it for Toby Keith. This amazing singer will be playing at Trump's inauguration!,0
+12 Days Until The Presidential Inauguration and President Trump!,0
+Tolerant left: Andrea Bocelli pulled out of Trump inauguration after opera singer received DEATH THREATS,0
+NEW UK CONSERVATIVE PRIME MINISTER INAUGURATION,0
+"Tried to take a photo of US Capitol at Inauguration, but someone waved a flag in front. You can still see the Capitol.",0
+Travis Greene - Gospel Singer Not Afraid to Say He's Performing at Donald Trump Inauguration,0
+90 YEAR OLD PATRIOT MADE THIS FOR THE INAUGURATION. SOMEONE GET THIS MAN A COAT,0
+<------------- Number of special interest lobbyists that will be out of job the day of PRESIDENT SANDERS inauguration,0
+Is it just me or does everyone else keep expecting John Lewis to declare the inauguration a trap?,0
+OOPS: Hillary Camp Got 200 Hotel Rooms For Her Inauguration - WAS FORCED TO OFFER THEM TO NY REPUBLICAN PARTY CHAIRMAN ED COX,0
+Wish me luck in Seattle on Friday! Inauguration and Milo!!,0
+"President Trump: Jackie Evancho's album sales have skyrocketed after announcing her Inauguration performance.Some people just don't understand the """"Movement""""",0
+"LIBERAL HEADS EXPLODE! Talladega College, Alabama's oldest private, historically black liberal arts college, to perform at inauguration!",0
+So much for a boycott! Designers at war to dress Melania Trump for inauguration after liberal dressmakers insisted fashion pack would desert new First Lady,0
+SORE LOSER PARTY: At Least 20% of Remaining House Democrats to Skip Trump Inauguration,0
+Trump has raised a record $90 million in private donations to pay for his inauguration,0
+Holyyyyy shit -- I just got tickets to the 58th Presidential Inauguration!!! MERRY CHRISTMAS USA!!!,0
+How I'm hoping Obama shows up to his second inauguration.,0
+OH NO!!! There's a secret Inauguration rally being organized on Facebook!!!,0
+Free marijuana will be handed out on Trump’s Inauguration Day in Washington DC,0
+KANYE WES TO PERFORM AT TRUMPS INAUGURATION - MEETS HIM AT TRUMP TOWER.,0
+Krauthammer on NY Times Hit Piece: If This Is Best They Can Do Get Ready for Trump Inauguration,0
+LIVE discussion thread: inauguration of USA president-elect Donald J. Trump,0
+My favorite picture of President Obama at the inauguration today,0
+BREAKING: Undercover video exposes groups plotting criminal activity and violence at Trump inauguration,0
+More lawmakers to skip Trump inauguration after he blasts Rep. John Lewis,0
+TIL to clear the streets for President Kennedy's Inauguration the army used flamethrowers to melt the snow.,0
+"Alec Baldwin, Michael Moore, Mark Ruffalo, More to Protest Outside Trump Hotel in NYC Before Inauguration",0
+Andrea Bocelli backs away from Donald Trump inauguration after 'too much heat' from fans,0
+B.178: The Secular Inauguration Act,0
+"Anti-Trump Inauguration Day concert is proposed, and people are taking sides",0
+"Jennifer Holliday Pulls Out of Trump Inauguration, Apologizes to LGBT Community",0
+Trump’s Team Reportedly Offered Ambassadorships to Talent Bookers in Exchange for Inauguration Singers,0
+Donald Trump's inauguration 'to face competition from large-scale concert',0
+"Maine woman kills her Nazi millionare husband, because he attempted to build a dirty bomb to detonate during the inauguration.",0
+"Kellyanne Conways birthday is January 20th, her 50th, the big one. It will obviously be overshadowed due to the inauguration of our great president. Can we flood her twitter with """"Happy Birthdays!"""" on January 20th?",0
+Massive protest in LA planned for Trump's inauguration day,0
+"Obama's terrorist record since his inauguration: 10 terrorist attacks, 113 people killed, almost 400 people injured. Source: DHS & FBI",0
+The Vehicle Road Closures for the Inauguration are in the shape if a Locomotive. TRUMP TRAIN CONFIRMED!!!,0
+"If these Anarchists are planning violence against Trumpers at the Inauguration, they may want to rethink that. We're no snowflakes.",0
+A thought for my Troll sisters marching at the inauguration.,0
+"After skipping Bush's inauguration in '01, @Trish_Regan says there's a pattern of John Lewis's attempts to de-legitimize Presidents! - John Lewis Lied - Once a civil rights icon, now a democrat shill.",0
+[Poetry][Meme] inauguration.mp4,0
+"WARNING: liberals are planning something huge against the inauguration. Beware, 'Pedes!!",0
+PEACEFUL Protesters Attack Innocent Trump Supporters At Inauguration,0
+"I hear there are """"peaceful protests"""" planned for the inauguration tomorrow",0
+Scam Pastor to Pray With Trump At Inauguration,0
+"Given that Crooked is going to be at the Inauguration, what are the chances of the largest ever 'lock her up' happening?",0
+LMMFAO!!!!! Jackie Evancho Goes #1 After Announcing Inauguration Performance and quadruples sales,0
+"16YO Jackie Evancho will sing at Inauguration. Look at how the left responds to this sixteen year old girl! I'm bipolar, but I thank GOD I'm not a liberal.",0
+Trump ‘aggressively’ pursuing Netanyahu to attend inauguration — report,0
+Hey Pedes! A local bakery near Philadelphia is making MAGA hats for Inauguration Day. They are getting some haters for it though. Let's show them some love from The_Donald!,0
+Donald Trump's inauguration 'to face competition from large-scale concert',0
+One of my ASL interpreting professors was working at the inauguration. Obama noticed her and signed back!,0
+DC Mayor Says Police Will Not Arrest Pot Smokers At Trump Inauguration,0
+[Poetry][Meme] inauguration.mp4,0
+"Alec Baldwin, Michael Moore, Mark Ruffalo, More to Protest Outside Trump Hotel in NYC Before Inauguration",0
+Trump’s Team Reportedly Offered Ambassadorships to Talent Bookers in Exchange for Inauguration Singers,0
+Virginia GOP Pulls ‘Dirty Trick’ On Inauguration Day,0
+"If these Anarchists are planning violence against Trumpers at the Inauguration, they may want to rethink that. We're no snowflakes.",0
+Toby Keith Says He's NOT APOLOGIZING For Playing At Trump Inauguration!,0
+"WOLF BLITZER CNN WAS JUST THREATENING TRUMP AT THE INAUGURATION, BEGGING FOR ATTACK. VIDEO PROOF",0
+WOW: Trump To Fire ALL Obama-Ambassador Appointments On Inauguration Day - DCWhispers.com,0
+"Maine woman kills her Nazi millionare husband, because he attempted to build a dirty bomb to detonate during the inauguration.",0
+5 Days Until The Inauguration!! #MAGA #Babes4Trump,0
+Scam Pastor to Pray With Trump At Inauguration,0
+"Kellyanne Conways birthday is January 20th, her 50th, the big one. It will obviously be overshadowed due to the inauguration of our great president. Can we flood her twitter with """"Happy Birthdays!"""" on January 20th?",0
+"Toby Keith BLASTED For Performing At Inauguration, Then He Makes Shock Announcement | He's still going to perform",0
+Massive protest in LA planned for Trump's inauguration day,0
+"Due to his atheism, Uruguayan president abstains from going to the new Pope's inauguration",0
+How to crash Donald Trump's Inauguration,0
+A thought for my Troll sisters marching at the inauguration.,0
+"WARNING: liberals are planning something huge against the inauguration. Beware, 'Pedes!!",0
+"I hear there are """"peaceful protests"""" planned for the inauguration tomorrow",0
+"Given that Crooked is going to be at the Inauguration, what are the chances of the largest ever 'lock her up' happening?",0
+"Hey liberals! On Trump's inauguration, please let us know how bummed out and sad you are! Also posting videos of yourselves throwing a temper tantrum is good too.",0
+LMMFAO!!!!! Jackie Evancho Goes #1 After Announcing Inauguration Performance and quadruples sales,0
+Toby Keith Says He's NOT APOLOGIZING For Playing At Trump Inauguration!,0
+18 House Democrats to skip Trump’s inauguration,0
+"WARNING: liberals are planning something huge against the inauguration. Beware, 'Pedes!!",0
+Watching Beyonce sing the National Anthem at Obama's inauguration,0
+5 Days Until The Inauguration!! #MAGA #Babes4Trump,0
+"Due to his atheism, Uruguayan president abstains from going to the new Pope's inauguration",0
+How to crash Donald Trump's Inauguration,0
+Scam Pastor to Pray With Trump At Inauguration,0
+Virginia GOP Pulls ‘Dirty Trick’ On Inauguration Day,0
+"WOLF BLITZER CNN WAS JUST THREATENING TRUMP AT THE INAUGURATION, BEGGING FOR ATTACK. VIDEO PROOF",0
+"MADMAN: President Trump To Take 4-5 Executive Actions on Friday, RIGHT AFTER HIS INAUGURATION!",0
+I'm driving 4000 miles across the country for the inauguration. I have 2000 more to go,0
+Brexit Leader Nigel Farage Announces He Is Attending Donald Trump’s Inauguration (VIDEO),0
+The Face Of Total Defeat: this picture of Hillary was snapped just after she arrived at DONALD J. TRUMP's Inauguration Ceremony,0
+"With inauguration looming, Trump continues to control hundreds of companies",0
+This cartoonist appears to be trying to get in a dig on Donald Trump's Inauguration but I think it's pretty cool - this kind of self-confidence is not a character flaw! It's going to MAGA!,0
+Too Much God at Inauguration? - An Atheist's Perspective on the Inauguration: Enough With all the God Stuff,0
+Here is the list of Congress members who are skipping inauguration. Some VA and MD ones too.,0
+"Donald J. Trump on Twitter: """"Inauguration Day is turning out to be even bigger than expected. January 20th, Washington D.C. Have fun!""""",0
+Hey from Australia! Ready for the inauguration. Staying up until 5am in the morning to watch this historic event!,0
+Hillary and Bill Clinton accepted invitation to attend inauguration.,0
+Facebook blocks RT from posting until after Trump inauguration,0
+Kids goofing around at inauguration vs small child saluting dead father - how do they compare?!,0
+Make Reddit Great Again! 500k T_D subscribers by Inauguration Day! Upvote and let's make it happen!!!!,0
+ONLY 4 AND A HALF MORE DAYS UNTIL THE INAUGURATION!!! THAT MEANS BERNIE STILL HAS A CHANCE TO WIN GUYS!!! I JUST DONATED $600 AND 45 GOOD BOY POINTS! MATCH ME!!!!,0
+Toby Keith isn’t apologizing for his upcoming inauguration performance “for our country or military”,0
+Donald Trump Inauguration Discussion Thread,0
+"Please Protesters, Don't Be Cannon Fodder For Fools! Rosies Don't Care If You Get Arrested, Or Hurt, Or Ruin Your Life. Don't Get Shot By Police Because Some Rosie Said It Was OK To Attack An Inauguration.",0
+Donald Trump will have scandal-prone televangelist pray at his inauguration,0
+"With at least 18 House Dems skipping the inauguration, I've been searching for news stories of House Repubs doing the same in 2009. Can't find em.",0
+"Robert Reich suggests Inauguration Day ‘Freedom Concert,’ and people are taking sides",0
+My Chinese mother and I are going to the 58th Presidential Inauguration for God Emperor Trump!,0
+"Since there are 20 Democrats boycotting Trump's inauguration, I went back and found a picture of all the Republicans who boycotted Obama's.",0
+"Trump Inauguration Singer Jackie Evancho's Family Faces Online Harassment, Bullied Over Trans Sister.",0
+2017 Presidential Inauguration Live Thread - /r/Politics,0
+People Are Sharing Fake Pictures Of Bikers For Trump Heading To The Inauguration,0
+This is how a WINNER dresses for an inauguration.. with a small nod to the Founders...#MAGA,0
+WINNING AGAIN!!! Tom Wheeler to Step Down as FCC Chairman on Day of Trump's Inauguration,0
+Made it to the inauguration! #MAGA,0
+Dem to skip inauguration over Trump attack on John Lewis,0
+China orders United States not allow a delegation from Taiwan to attend U.S. President-elect Donald Trump's inauguration.,0
+Scottish paper describes Trump inauguration as return of “The Twilight Zone”,0
+Rockette Says Inauguration Performance Is ‘An Issue Of Racism And Sexism’,0
+"200 buses have applied for city parking on Inauguration Day. 1,200 have applied for the Women’s March.",0
+Inauguration Station let me be SMASHING!,0
+Poll: Trump’s Favorability Rating Improves Significantly Before Inauguration Day,0
+"If last night's speech was any indication, Kanye's inauguration will last AT LEAST three days.",0
+"Cucks harrass, threaten and boycott this girl for performing at the Inauguration. THIS is what they hate: the best rendition of the most beautiful song of the 20th Century. LET'S SHOW HER SOME LOVE!",0
+Please connect the LAN cable to the red port on your workstation. Please write back to IT if you are unable to get the IP addresss,0
+"Go to URL : accountsetup.com, Enter personal details along with user id, enter OTP received, click finish. Check email for details.",0
+"Go to URL : password.reset.com, Enter you login id, enter password received, reset the password",0
+"Go to URL : password.reset.com, Enter you login id, enter password received, reset the password",0
+"Go to URL : accountsetup.com, Enter personal details along with user id, enter OTP received, click finish. Check email for details.",0
+They won't be able to access other profiles if they login with their account. Please ask users to reach out to IT if they have any issues.,0
+"First, connect a network cable to your laptop to the red port on your workstation. Run ipconfig /all on your command prompt. Share WiFi Mac or Hardware address to the IT team. IT team then adds your MAC ID to enable WiFi access",0
+changed network settings to Bridged and configured network in VM.,0
+"First, connect a network cable to your laptop to the red port on your workstation. Run ipconfig /all on your command prompt. Share WiFi Mac or Hardware address to the IT team. IT team then adds your MAC ID to enable WiFi access",0
+We regret for the inconvinience caused. The issue is with Host server which got rebooted due to a power failure.,0
+IT Team has sent the instructions to configure outlook -follow the instructions on https://ticket.abc.com/kb/faq.php and click on O365 and solution and then outlook configuration for your machines,0
+"Go to \imfs\software\postgres location, copy postgresql database into local and install",0
+"1. Hold the power button until system gets shut down, then hit the power button to boot the machine. If still blue screen appears contact IT team and surrender the laptop.",0
+"Please check the Power cables are properly plugged , Please write back to us if the Problem still persists.",0
+"Press F8 button on system start, Choose safe mode, if OS loads then restart the os, if still same issue comes handover it to IT team",0
+"Go to network tab from bottom right corner, choose inn001 network, click on connect",0
+Unlocked the account and new password is sent to your email id.,0
+"Press F8 button on system start, Choose safe mode, if OS loads then restart the os, if still same issue comes handover it to IT team",0
+"Go to network tab from bottom right corner, choose inn001 network, click on connect",0
+"Go to network tab from bottom right corner, choose inn001 network, click on connect",0
+Please run Battery Helath test and send us the results IT team will do the needful accordingly. Please follow the steps to cehck the battery Helath https://ticket.abc.com/kb/faq.php Hardware issue-Battery issue,0
+Contact IT support.,0
+"Go to URL : password.reset.com, Enter you login id, enter password received, reset the password",0
+"Please reset the passowrd using self service Portal http://ssp.abc.com, Please write back to us if you face any issue.",0
+Please login to web mail and go to settings -office 365 -install applications- download and install MS office for your machine.,0
+"Go to URL : password.reset.com, Enter you login id, enter password received, reset the password",0
+Unlocked the account and new password is sent to your email id.,0
+" Just like an Internet URL no spaces are allowed in an e-mail address. However, names can be broken up using a period; for example, John Smith may have an e-mail address: john.smith@example.com or john.s@example.com because no spaces are allowed in the e-mail address.",0
+" No. Computer viruses are software code designed to spread to computer files and other computers, delete files, and cause other problems with the data on the computer. So if you're experiencing an issue with a hardware device such as your printer, video card, sound card, etc. it is not due to a virus.",0
+All versions of Microsoft Windows do not come pre-installed with a virus protection program. This includes: Microsoft Windows 7 and Windows 10.,0
+" The keys on a keyboard are only clipped on, with a knife or other thin object, carefully pop the keys off, this will allow you to clean under the keys as well as cleaning the keys themselves (make sure you remember where they went!).",0
+" Double click the recycle bin icon on your desktop, here you will see all of the files within your bin. Select the files you wish to recover, right click and choose restore.",0
+" If you are running Microsoft Windows 7, Windows 10, or a later version of Microsoft Windows, you are eligible to update Microsoft Windows, and in some cases, your computer hardware with the latest drivers through Microsoft's update site, visit http://windowsupdate.microsoft.com. In most cases your computer should be set to automatically update when a new update becomes available.",0
+" Microsoft Internet Explorer users can go to 'Tools' (or the little cog icon in the top left), then go to 'Safety' and choose 'Delete browsing history...', you can then choose to delete your Internet cookies. In Google Chrome, go to 'More Tools' and choose 'Clear browsing data...'. Firefox users can go to 'History', then choose 'Clear recent history...'.",0
+" Right-click My Computer. Click Properties. In the Properties window, click the Computer Name tab. Within this tab you'll be able to see the full computer name, workgroup and also a description. If you wish to change the name or workgroup, click the Change button.",0
+Turn off the printer. Inspect the location or tray the printed paper ejects to. If the stuck paper is visible manually remove it. Remove all paper trays and any paper that may be stuck between the tray and the printer. If the stuck paper is visible manually remove it. Open the printer door that allows you access to the printer ink cartridges or toner and look for any stuck paper. If the stuck paper is visible manually remove it. Turn the printer back on.,0
+" To get into the Windows 7 / 10 Safe mode, as the computer is starting up press and hold your """"F8 Key"""" which should bring up the """"Windows Advanced Options Menu"""". Use your arrow keys to move to """"Safe Mode"""" and press your Enter key.",0
+" Open Microsoft Explorer. From Explorer, click the Tools drop down menu and click the option """"Map Network Drive."""" Specify the network drive or network computer as the folder. If the computer's name was hope, to map to that computer, type \\hope If you wished to map to a shared folder on the hope computer such as a mp3 folder, you would type \\hope\mp3. If a different username or login is required to connect to this computer or drive it must be specified in this window before clicking the finish.",0
+" Verify that your computer is able to see the Internet and/or other computers to ensure that your computer is not encountering a connection issue, which would be causing your e-mail issue. Ensure that your Internet e-mail server or your Network e-mail server is not encountering issues by contacting either your Internet Service Provider or your Network administrator.",0
+" Verify that the network cable is properly connected to the back of the computer. In addition, when checking the connection of the network cable, ensure that the LED's on the network are properly illuminated. For example, a network card with a solid green LED or light usually indicates that the card is either connected or receiving a signal. Note: generally, when the green light is flashing, this is an indication of data being sent or received.",0
+" Close all programs running on the computer and try again. If after closing all programs running on the computer you are still encountering the same issue when attempting to delete files, load the computer into Safe Mode and delete the files.",0
+" If the e-mail box is full of other e-mail messages, and/or your storage space is only a few megabytes, it's possible that the attachment being sent cannot be received. Often if this problem is occurring the person sending the e-mail should get a response back from your e-mail server indicating that your mailbox is full and/or has exceeded its allocated size. Because computer viruses and other malware are best distributed through e-mail, many e-mail service providers, companies, and e-mail programs prevent certain types of file extensions from being distributed or received through e-mail. For example, Microsoft Outlook protect its users by automatically disabling certain file extension types from being received in e-mail.",0
+" Verify that the monitor is properly connected in the back of the monitor as well as to the back of the computer. If the monitor appears to be connected properly, verify that a cable is not loose by disconnecting all cables that can be disconnected in the back of the monitor (generally the data cable cannot be disconnected). Next, disconnect the data cable connected to the back of the computer and then reconnect the cable. When connecting the cable in the back of the computer ensure the cable connection is tight. Most Computers will also have screw ends that can be screwed in to hold the connector in place.",0
+Thankfully a missing printer installation disk or disc is not the end of the world and will not require you to wait until a new diskette or CD can be sent to you. Today all printer and other hardware manufacturers are providing downloads on the Internet to their software programs and drivers that are included with their products.,0
+" If your computer is infected with a virus formatting or erasing the hard disk drive and starting over will almost always remove any type of virus. However, keep in mind if backups have been made that contain the virus, other media or drives connected to the computer have a virus, your computer is connected to another computer on a network with a virus, and/or the virus is stored on some other type of software you use with your computer it can become re-infected if not properly protected.",0
+Users should not simply press the power button or restart the computer while Windows is still running unless there is an issue with the computer. Microsoft has included the shut down feature because it enables a computer to go through all the necessary steps that are required before turning off the computer. In fact many versions of Microsoft Windows will check the computer for any problems if the computer is not shut down properly.,0
+" Check that all the cables are securely plugged into the back of the machine and the monitor. Check that the power cables are plugged into a power socket and the socket has been turned on. Try using a different power socket or, if you are using a power extension strip, plug the power cable directly into a power socket in the wall. Replace the power cable with one that you know works. Check if there are any lights on at the front of the machine: If there are lights on the machine but not the monitor, then it's probably a monitor issue. If there are lights on the monitor but not the machine, then it's probably a machine issue. If there are no lights on anything, then it may be possible there is a local power cut. With laptops, try removing the power cable and the battery. Hold down the power button for about ten seconds, and then plug the battery and power cable in again. Press the power button to see if it switches on. ",0
+" Try restarting your computer. Many basic problems can be resolved easily and quickly this way. Press the Ctrl & Alt & Del keys on your keyboard together at the same time. This should bring up a menu that will allow you to run Task Manager. In Task Manager, switch to the Applications tab. Highlight any programs with the status 'Not Responding' and choose End Task. You may be asked to confirm if you want to end the unresponsive program, so choose Yes. Do this for all programs that are not responding. If all else fails and you cannot shutdown/restart your computer, then hold down the power button on the machine until it forcibly turns off. Wait a few seconds and then turn it back on again. ",0
+" First check the computer's power cord to make sure it is completely plugged into the wall socket. If you are using a plug strip, make sure it is completely plugged into the wall socket and that the power switch on the plug strip is turned on. Some plug strips also have a built in circuit breaker which usually looks like a black or red button near the power switch. Press the button to reset it and see if that solves the problem.",0
+" When printing on untraditional paper your printer may experience smudges, un-even or crooked text, and/or text that runs off the edges of the paper. Your printer may be printing fuzzy, blurry, and/or other faint text because of dirty print heads. All modern printers have some type of printer cleaning, self-test, and/or diagnose mode that can be performed to check and clean the printers print heads and other internal equipment used to print.",0
+" Make sure both the computer and monitor are on. Make sure the monitor is securely plugged into the computer. Make sure the power cable is firmly plugged into the monitor. Some computers have multiple display ports, so make sure you have plugged the monitor into the correct one. Try each one in turn, switching the monitor off then on in between moves. Most monitors have a status window displayed when you turn it on. Check if you can see this status window when you press the power button on the monitor. You can also try this with the menu button on the monitor, which should bring up an options menu on the screen. This shows the screen is working ok, so it may be an issue with the video cable from the monitor or the machine itself. Check the brightness & contrast levels of the monitor via the menu button, to make sure it has not been set too dark. Move the mouse and press any key on the keyboard to make sure the screensaver hasn't activated or that the computer hasn't gone into standby/hibernation mode.  ",0
+" If you're running any version of Microsoft Windows and are encountering issues with the mouse wheel, first attempt to adjust the mouse settings through the Mouse Properties window. This window can be accessed by opening the Control Panel and double-clicking the Mouse icon.",0
+" If the resolution was recently changed it is possible for the monitor to not auto adjust or shift to the correct size. If this occurs, the resolution can be changed back to the original setting or you can manually adjust the monitor. If a black border exists on the monitor it can generally be resolved by manually adjusting the horizontal or vertical width. Because each monitor is different, the method of adjusting this setting will vary; consult your monitor documentation.",0
+" Make sure the monitor is on. If no power light (green or orange light) is seen on the monitor display try pressing the power button until it comes on. If your computer monitor was on and you stepped away from the computer and upon returning it was black, it's likely that the computer is asleep. Try moving your mouse, clicking the mouse buttons, and/or pressing any key (space bar) on the keyboard to wake it up. Make sure that the monitor is connected properly to the back of the computer.",0
+" As with most computer errors, your first step is to shut down your computer and restart it. This will help you determine whether or not you actually have a hard disk problem. If the disk is severely damaged then your computer will probably fail to restart properly. If this is the case then contact MCWare IT Solutions, this is a job for the professionals.",0
+" You may receive a distorted image when the cable is loose or defective. Disconnect the video cable going from the back of the computer and verify that no pins are bent, burnt or broken. Once verified re-connect the monitor cable. If the refresh rate is not properly set the monitor may have a wavy or an appearance that lines are going down or across the monitor slowly or fast, this may also cause a flickering affect. A distorted image can be caused by magnetic or other types of interference. Verify no speakers, fans or other magnetic devices are close to the monitor.",0
+" There are many reasons why a computer may just stop working or """"freeze"""". Most of the time there isn't much we can do about it, it is a fact of life that computer programs have become so complex that occasionally users will experience problems even when performing common tasks. When your computer no longer responds to keyboard commands your best bet is to restart the computer.",0
+" A computer virus is a software program that has been intentionally created to cause a user grief, spread to other computers, or destroy data on an individual's computer. To help prevent a computer from becoming infected by a virus, software developers have developed anti virus programs that stay active on the computer helping to protect it. It is important to realize that many computers do not come pre-loaded with these already installed and that if computers do come with these programs, the programs may expire within 90 days.",0
+Users who have an optical mechanical mouse (most common mouse for desktop computers) are likely experiencing erratic behaviour because the mouse is not clean or is dirty. If you've cleaned the mouse and continue to encounter issues and this mouse has worked in the past fine unfortunately your mouse is likely defective. One additional test that can be done to help determine if this is the case or not is to connect the mouse to another computer. Otherwise we suggest replacing the mouse.,0

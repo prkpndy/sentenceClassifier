@@ -1,27 +1,28 @@
+# pandas
 import pandas as pd
+import numpy as np
+# scikit learn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score
 from sklearn.linear_model import SGDClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.naive_bayes import MultinomialNB
+# nltk
 import nltk
 from nltk.stem.snowball import SnowballStemmer
+# miscellaneous
 import pickle
 import re
 import sys
 import warnings
 
-file_path_train = "data/train.csv"
-file_path_eval = "data/eval.csv"
-file_path_test = "data/test.csv"
+file_path_train = "data/train_google.csv"
 
 raw_data_train = pd.read_csv(file_path_train)
-raw_data_eval = pd.read_csv(file_path_eval)
-raw_data_test = pd.read_csv(file_path_test)
 
 data_train = raw_data_train
-data_eval = raw_data_eval
-data_test = raw_data_test
 
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
@@ -61,28 +62,6 @@ for str in data_train['post']:
     data_train.iloc[count, 0] = split(str)
     count = count + 1
 
-# cleaning evalution dataset
-data_eval['post'] = data_eval['post'].str.lower()
-#data_eval['post'] = data_eval['post'].apply(cleanHtml)
-data_eval['post'] = data_eval['post'].apply(cleanPunc)
-data_eval['post'] = data_eval['post'].apply(keepAlpha)
-
-count = 0
-for str in data_eval['post']:
-    data_eval.iloc[count, 0] = split(str)
-    count = count + 1
-
-# cleaning testing dataset
-data_test['post_description'] = data_test['post_description'].str.lower()
-#data_test['post_description'] = data_test['post_description'].apply(cleanHtml)
-data_test['post_description'] = data_test['post_description'].apply(cleanPunc)
-data_test['post_description'] = data_test['post_description'].apply(keepAlpha)
-
-count = 0
-for str in data_test['post_description']:
-    data_test.iloc[count, 0] = split(str)
-    count = count + 1
-
 # removing stopwords
 pkfile = open("stop_words.pk", "rb")
 stop_words = pickle.load(pkfile)
@@ -93,8 +72,6 @@ def removeStopWords(sentence):
     return re_stop_words.sub(" ", sentence)
 
 data_train["post"] = data_train["post"].apply(removeStopWords)
-data_eval["post"] = data_eval["post"].apply(removeStopWords)
-data_test["post_description"] = data_test["post_description"].apply(removeStopWords)
 
 # stemming
 def stemming(sentence):
@@ -108,31 +85,73 @@ def stemming(sentence):
     return stemSentence
 
 data_train['post'] = data_train['post'].apply(stemming)
-data_eval['post'] = data_eval['post'].apply(stemming)
-data_test['post_description'] = data_test['post_description'].apply(stemming)
 
 # training and testing
-txt_clf = Pipeline([
+txt_clf_SGD = Pipeline([
     ('vect', CountVectorizer()),
     ('tfidf', TfidfTransformer()),
     ('clf', SGDClassifier(loss='modified_huber', penalty='l2',    # loss='hinge'
-                    alpha=1e-3, random_state=42,
-                    max_iter=5, tol=None))
+                          alpha=1e-3, random_state=42,
+                          max_iter=5, tol=None))
 ])
+
+txt_clf_NB = Pipeline([
+    ("vect", CountVectorizer()),
+    ('tfidf', TfidfTransformer()),
+    ('clf', MultinomialNB())
+])
+
+# txt_clf_XGB = Pipeline([
+#     ('vect', CountVectorizer(),
+#     'tfidf', TfidfTransformer()),
+#     ('clf', GradientBoostingClassifier(loss = 'exponential',
+#                                        n_estimators=100,
+#                                        subsample=0.6))
+# ])
 
 train_text = data_train['post']
 y_train = data_train['label']
-txt_clf.fit(train_text, y_train)
 
-pkfile = open("model.pk", "wb")
-pickle.dump(txt_clf, pkfile)
+txt_clf_SGD.fit(train_text, y_train)
+txt_clf_NB.fit(train_text, y_train)
+#txt_clf_XGB.fit(train_text, y_train)
+
+pkfile = open("model_SGD.pk", "wb")
+pickle.dump(txt_clf_SGD, pkfile)
 pkfile.close()
 
-eval_text = data_eval['post']
-test_text = data_test['post_description']
-y_eval = data_eval['label']
-prediction_eval = txt_clf.predict(eval_text)
-prediction_test = txt_clf.predict(test_text)
-print('Evaluation accuracy is {}'.format(accuracy_score(y_eval, prediction_eval)))
+pkfile = open("model_NB.pk", "wb")
+pickle.dump(txt_clf_NB, pkfile)
+pkfile.close()
+
+# pkfile = open("model_XGB.pk", "wb")
+# pickle.dump(txt_clf_XGB, pkfile)
+# pkfile.close()
 
 #OneVsRestClassifier(LogisticRegression(solver='sag'), n_jobs=-1)
+
+####
+count_vect = CountVectorizer()
+tfidf_trans = TfidfTransformer()
+
+x_count = count_vect.fit_transform(train_text)
+x_train = tfidf_trans.fit_transform(x_count)
+
+clf = GradientBoostingClassifier(loss = 'exponential',
+                                 n_estimators=10,
+                                 subsample=0.6)
+
+clf.fit(x_train, y_train)
+
+pkfile = open("XGB_CV.pk", "wb")
+pickle.dump(count_vect, pkfile)
+pkfile.close()
+
+pkfile = open("XGB_TFIDF_trans.pk", "wb")
+pickle.dump(tfidf_trans, pkfile)
+pkfile.close()
+
+pkfile = open("XGB_clf.pk", "wb")
+pickle.dump(clf, pkfile)
+pkfile.close()
+
