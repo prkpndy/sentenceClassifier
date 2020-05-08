@@ -9,6 +9,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.linear_model import SGDClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
 # nltk
 import nltk
 from nltk.stem.snowball import SnowballStemmer
@@ -112,6 +114,8 @@ txt_clf_NB = Pipeline([
 train_text = data_train['post']
 y_train = data_train['label']
 
+train_text, test_text, y_train, y_test = train_test_split(train_text, y_train, test_size = 0.2, random_state = 42)
+
 txt_clf_SGD.fit(train_text, y_train)
 txt_clf_NB.fit(train_text, y_train)
 #txt_clf_XGB.fit(train_text, y_train)
@@ -138,7 +142,7 @@ x_count = count_vect.fit_transform(train_text)
 x_train = tfidf_trans.fit_transform(x_count)
 
 clf = GradientBoostingClassifier(loss = 'exponential',
-                                 n_estimators=10,
+                                 n_estimators=100,
                                  subsample=0.6)
 
 clf.fit(x_train, y_train)
@@ -155,3 +159,28 @@ pkfile = open("XGB_clf.pk", "wb")
 pickle.dump(clf, pkfile)
 pkfile.close()
 
+# Accuracy for SGD Classifier
+print("Training Accuracy for SGD Classifier = ",accuracy_score(y_train, txt_clf_SGD.predict(train_text)))
+pred_SGD = txt_clf_SGD.predict(test_text)
+print("Test Accuracy for SGD Classifier = ",accuracy_score(y_test,pred_SGD))
+fpr, tpr, thresholds = metrics.roc_curve(y_test, pred_SGD, pos_label=1)
+print("AUC for SGD Classifier = ", metrics.auc(fpr, tpr))
+print("F1 Score for SGD Classifier = ", metrics.f1_score(y_test, pred_SGD))
+
+# Accuracy for NB Classifier
+print("Training Accuracy for NB Classifier = ",accuracy_score(y_train, txt_clf_NB.predict(train_text)))
+pred_NB = txt_clf_NB.predict(test_text)
+print("Test Accuracy for NB Classifier = ",accuracy_score(y_test,pred_NB))
+fpr, tpr, thresholds = metrics.roc_curve(y_test, pred_NB, pos_label=1)
+print("AUC for NB Classifier = ", metrics.auc(fpr, tpr))
+print("F1 Score for NB Classifier = ", metrics.f1_score(y_test, pred_NB))
+
+# Accuracy for xgboost
+x_count = count_vect.transform(test_text)
+x_test = tfidf_trans.transform(x_count)
+pred_xgb = clf.predict(x_test)
+print("Training Accuracy for xgboost Classifier = ",accuracy_score(y_train, clf.predict(x_train)))
+print("Test Accuracy for xgboost Classifier = ",accuracy_score(y_test,pred_xgb))
+fpr, tpr, thresholds = metrics.roc_curve(y_test, pred_xgb, pos_label=1)
+print("AUC for xgboost Classifier = ", metrics.auc(fpr, tpr))
+print("F1 Score for xgboost Classifier = ", metrics.f1_score(y_test, pred_xgb))
