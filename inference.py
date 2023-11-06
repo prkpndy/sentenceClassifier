@@ -29,46 +29,62 @@ def is_help(post):
             post = [post]
             prediction = model.predict(post)
             prob = model.predict_proba(post)
-            return prob[0][1]
+            return prediction  #prob[0][1]
     else:
         return -1
 
+test = pd.read_csv("data/jaano_new_test2.csv")
+pred = []
+#actu = test['label']
+actu = [1]*len(test['post'])
+
+for string in test['post']:
+    ans = is_help(string)
+    print(string)
+    print(ans)
+    pred.append(ans)
+f = []
+for i in range(len(pred)):
+    f.append(not(pred[i]^actu[i]))
+
+print(sum(f)/len(f))
 
 #test = pd.read_excel("data/test.xlsx")
 #print(test)
 #print(type(test))
-test = pd.read_csv("data/test.csv")
+###test = pd.read_csv("data/test.csv")
 # he = []
-for string in test['post_description']:
+###for string in test['post_description']:
     #print(is_help(string))
     #print(string)
     #print("\n")
     #new_srt_list = re.split(r' *[\.\?!][\'"\)\]]* *', string)
     #strg = string.split("\n")
-    strg = re.split('\.|\?|\n|\!', string)
-    if((len(strg) > 5) or (len(strg) == 0)):
-        continue
-    else:
-        h = []
-        for s in strg:
-            #print(j)
-            #print(len(j))
-            #new_srt_list = nltk.sent_tokenize(j)
-            #h = False
-            #for s in new_srt_list:
-                #h = h or is_help(s)
-            hlp = is_help(s)
-            #hlp = hlp[0]
-            if(hlp>0):
-                h.append(is_help(s))
-                # print(s)
-                # print(h)
-                # print("\n")
-        if(len(h) == 0):
-            continue
-        score = sum(h)/len(h)
-        if(score>0.4):
-            print(string, "\n", score)
+    ###
+    # strg = re.split('\.|\?|\n|\!', string)
+    # if((len(strg) > 5) or (len(strg) == 0)):
+    #     continue
+    # else:
+    #     h = []
+    #     for s in strg:
+    #         #print(j)
+    #         #print(len(j))
+    #         #new_srt_list = nltk.sent_tokenize(j)
+    #         #h = False
+    #         #for s in new_srt_list:
+    #             #h = h or is_help(s)
+    #         hlp = is_help(s)
+    #         #hlp = hlp[0]
+    #         if(hlp>0):
+    #             h.append(is_help(s))
+    #             # print(s)
+    #             # print(h)
+    #             # print("\n")
+    #     if(len(h) == 0):
+    #         continue
+    #     score = sum(h)/len(h)
+    #     if(score>0.4):
+    #         print(string, "\n", score)
 #     he.append(h)
 # ans = pd.DataFrame(test['post_description'], he, columns = ['post', 'label'])
 # ans.to_csv("data/ans.csv")
