@@ -1,6 +1,6 @@
 # pandas
 import pandas as pd
-import numpy as np
+
 # scikit learn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -11,30 +11,32 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+
 # nltk
-import nltk
 from nltk.stem.snowball import SnowballStemmer
+
 # miscellaneous
 import pickle
 import re
 import sys
 import warnings
 
+# ------------ Reading the data on which to train the model
 file_path_train = "data/train_google.csv"
-
-raw_data_train = pd.read_csv(file_path_train)
-
+raw_data_train = pd.read_csv(file_path_train)  # will take the first row as header
 data_train = raw_data_train
 
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
-    
+
+# Function to remove HTML from the sentence
 def cleanHtml(sentence):
     cleanr = re.compile('<.*?>')
     cleantext = re.sub(cleanr, ' ', str(sentence))
     return cleantext
 
-def cleanPunc(sentence): #function to clean the word of any punctuation or special characters
+# Function the clean the sentence of any punctuation or special character
+def cleanPunc(sentence):
     cleaned = re.sub(r'[?|!|\'|"|#]',r'',sentence)
     cleaned = re.sub(r'[.|,|)|(|\|/]',r' ',cleaned)
     cleaned = cleaned.strip()
@@ -47,35 +49,38 @@ def keepAlpha(sentence):
         alpha_word = re.sub('[^a-z A-Z]+', ' ', word)
         alpha_sent += alpha_word
         alpha_sent += " "
+
     alpha_sent = alpha_sent.strip()
     return alpha_sent
 
+# Reduce the string from start to end
 def split(string, start = 0, end = 50):
     return ' '.join(string.split()[start:end])
 
-# cleaning training dataset
+# ------------ Cleaning training dataset
 data_train['post'] = data_train['post'].str.lower()
-#data_train['post'] = data_train['post'].apply(cleanHtml)
+# data_train['post'] = data_train['post'].apply(cleanHtml)
 data_train['post'] = data_train['post'].apply(cleanPunc)
 data_train['post'] = data_train['post'].apply(keepAlpha)
-
 count = 0
 for str in data_train['post']:
     data_train.iloc[count, 0] = split(str)
     count = count + 1
 
-# removing stopwords
+# ------------ Removing stopwords
 pkfile = open("stop_words.pk", "rb")
 stop_words = pickle.load(pkfile)
 pkfile.close()
 re_stop_words = re.compile(r"\b(" + "|".join(stop_words) + ")\\W", re.I)
+
+# Function to remove the stopwords from the sentence
 def removeStopWords(sentence):
     global re_stop_words
     return re_stop_words.sub(" ", sentence)
 
 data_train["post"] = data_train["post"].apply(removeStopWords)
 
-# stemming
+# ------------ Stemming - Reduce the base word to its stem word using snowball stemmer from NLTK
 def stemming(sentence):
     stemmer = SnowballStemmer("english")
     stemSentence = ""
@@ -88,7 +93,14 @@ def stemming(sentence):
 
 data_train['post'] = data_train['post'].apply(stemming)
 
-# training and testing
+# pkfile = open("model_NB.pk", "rb")
+# txt_clf_NB = pickle.load(pkfile)
+# pkfile.close()
+# pkfile = open("model_SGD.pk", "rb")
+# txt_clf_SGD = pickle.load(pkfile)
+# pkfile.close()
+
+# ------------ Training
 txt_clf_SGD = Pipeline([
     ('vect', CountVectorizer()),
     ('tfidf', TfidfTransformer()),
@@ -111,15 +123,17 @@ txt_clf_NB = Pipeline([
 #                                        subsample=0.6))
 # ])
 
+# Getting the training and testing set
 train_text = data_train['post']
 y_train = data_train['label']
-
 train_text, test_text, y_train, y_test = train_test_split(train_text, y_train, test_size = 0.2, random_state = 42)
 
+# Training
 txt_clf_SGD.fit(train_text, y_train)
 txt_clf_NB.fit(train_text, y_train)
-#txt_clf_XGB.fit(train_text, y_train)
+# txt_clf_XGB.fit(train_text, y_train)
 
+# Storing the models
 pkfile = open("model_SGD.pk", "wb")
 pickle.dump(txt_clf_SGD, pkfile)
 pkfile.close()
@@ -132,32 +146,33 @@ pkfile.close()
 # pickle.dump(txt_clf_XGB, pkfile)
 # pkfile.close()
 
-#OneVsRestClassifier(LogisticRegression(solver='sag'), n_jobs=-1)
+# OneVsRestClassifier(LogisticRegression(solver='sag'), n_jobs=-1)
 
-####
-count_vect = CountVectorizer()
-tfidf_trans = TfidfTransformer()
+# count_vect = CountVectorizer()
+# tfidf_trans = TfidfTransformer()
 
-x_count = count_vect.fit_transform(train_text)
-x_train = tfidf_trans.fit_transform(x_count)
+# x_count = count_vect.fit_transform(train_text)
+# x_train = tfidf_trans.fit_transform(x_count)
 
-clf = GradientBoostingClassifier(loss = 'exponential',
-                                 n_estimators=100,
-                                 subsample=0.6)
+# clf = GradientBoostingClassifier(loss = 'exponential',
+#                                  n_estimators=100,
+#                                  subsample=0.6)
 
-clf.fit(x_train, y_train)
+# clf.fit(x_train, y_train)
 
-pkfile = open("XGB_CV.pk", "wb")
-pickle.dump(count_vect, pkfile)
-pkfile.close()
+# pkfile = open("XGB_CV.pk", "wb")
+# pickle.dump(count_vect, pkfile)
+# pkfile.close()
 
-pkfile = open("XGB_TFIDF_trans.pk", "wb")
-pickle.dump(tfidf_trans, pkfile)
-pkfile.close()
+# pkfile = open("XGB_TFIDF_trans.pk", "wb")
+# pickle.dump(tfidf_trans, pkfile)
+# pkfile.close()
 
-pkfile = open("XGB_clf.pk", "wb")
-pickle.dump(clf, pkfile)
-pkfile.close()
+# pkfile = open("XGB_clf.pk", "wb")
+# pickle.dump(clf, pkfile)
+# pkfile.close()
+
+# ------------ Testing
 
 # Accuracy for SGD Classifier
 print("Training Accuracy for SGD Classifier = ",accuracy_score(y_train, txt_clf_SGD.predict(train_text)))
@@ -176,11 +191,11 @@ print("AUC for NB Classifier = ", metrics.auc(fpr, tpr))
 print("F1 Score for NB Classifier = ", metrics.f1_score(y_test, pred_NB))
 
 # Accuracy for xgboost
-x_count = count_vect.transform(test_text)
-x_test = tfidf_trans.transform(x_count)
-pred_xgb = clf.predict(x_test)
-print("Training Accuracy for xgboost Classifier = ",accuracy_score(y_train, clf.predict(x_train)))
-print("Test Accuracy for xgboost Classifier = ",accuracy_score(y_test,pred_xgb))
-fpr, tpr, thresholds = metrics.roc_curve(y_test, pred_xgb, pos_label=1)
-print("AUC for xgboost Classifier = ", metrics.auc(fpr, tpr))
-print("F1 Score for xgboost Classifier = ", metrics.f1_score(y_test, pred_xgb))
+# x_count = count_vect.transform(test_text)
+# x_test = tfidf_trans.transform(x_count)
+# pred_xgb = clf.predict(x_test)
+# print("Training Accuracy for xgboost Classifier = ",accuracy_score(y_train, clf.predict(x_train)))
+# print("Test Accuracy for xgboost Classifier = ",accuracy_score(y_test,pred_xgb))
+# fpr, tpr, thresholds = metrics.roc_curve(y_test, pred_xgb, pos_label=1)
+# print("AUC for xgboost Classifier = ", metrics.auc(fpr, tpr))
+# print("F1 Score for xgboost Classifier = ", metrics.f1_score(y_test, pred_xgb))

@@ -1,51 +1,42 @@
 import pickle
 import pandas as pd
-import sklearn as skl
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem.snowball import SnowballStemmer
-import googletrans
-from googletrans import Translator
-import re
-import sys
-import warnings
 from clean_text import clean_text
 from urllib.parse import urlparse
 
+# Change the model name to test different models
 pkfile = open("model_NB.pk", "rb")
 model = pickle.load(pkfile)
 pkfile.close()
 
+# Function to check if a post is asking for help or not
 def is_help(post):
     post = post.strip()
     u = urlparse(post).scheme
-    #print(u)
     if(u == ''):
         post = clean_text(post)
-        #print(post)
         if(len(post.split(" ")) <= 3):
             return -1
         else:
             post = [post]
             prediction = model.predict(post)
             prob = model.predict_proba(post)
-            return prediction  #prob[0][1]
+            return prediction  # prob[0][1]
     else:
         return -1
 
 test = pd.read_csv("data/jaano_new_test2.csv")
-pred = []
-#actu = test['label']
-actu = [1]*len(test['post'])
+prediction = []
+actual = [1]*len(test['post'])
 
 for string in test['post']:
     ans = is_help(string)
     print(string)
     print(ans)
-    pred.append(ans)
+    prediction.append(ans)
+
 f = []
-for i in range(len(pred)):
-    f.append(not(pred[i]^actu[i]))
+for i in range(len(prediction)):
+    f.append(not(prediction[i]^actual[i]))
 
 print(sum(f)/len(f))
 

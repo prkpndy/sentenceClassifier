@@ -1,14 +1,13 @@
 import re
 import sys
 import warnings
-from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 import pickle
 import googletrans as gt
 
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
-    
+
 def split(string, start = 0, end = 50):
     return ' '.join(string.split()[start:end])
 
@@ -25,21 +24,21 @@ def deEmojify(string):
 
 
 def clean_text(sentence):
-    # translating
+    # Translating
     translator = gt.Translator()
     sentence_translated = translator.translate(deEmojify(sentence)).text
 
-    # removing html tags
+    # Removing html tags
     cleanr = re.compile('<.*?>')
     cleaned = re.sub(cleanr, ' ', str(sentence_translated))
 
-    # removing punctuations
+    # Removing punctuations
     cleaned = re.sub(r'[?|!|\'|"|#]',r'',cleaned)
     cleaned = re.sub(r'[.|,|)|(|\|/]',r' ',cleaned)
     cleaned = cleaned.strip()
     cleaned = cleaned.replace("\n"," ")
 
-    # removing non-alphabetic characters
+    # Removing non-alphabetic characters
     alpha_sent = ""
     for word in cleaned.split():
         alpha_word = re.sub('[^a-z A-Z]+', ' ', word)
@@ -47,14 +46,14 @@ def clean_text(sentence):
         alpha_sent += " "
     cleaned = alpha_sent.strip()
 
-    # removing stopwords
+    # Removing stopwords
     pkfile = open("stop_words.pk", "rb")
     stop_words = pickle.load(pkfile)
     pkfile.close()
     re_stop_words = re.compile(r"\b(" + "|".join(stop_words) + ")\\W", re.I)
     cleaned = re_stop_words.sub(" ", cleaned)
 
-    # stemming
+    # Stemming
     stemmer = SnowballStemmer("english")
     stemSentence = ""
     for word in cleaned.split():
@@ -63,7 +62,7 @@ def clean_text(sentence):
         stemSentence += " "
     cleaned = stemSentence.strip()
 
-    # splitting
+    # Splitting
     cleaned = split(cleaned)
 
     return cleaned
